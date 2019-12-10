@@ -1,6 +1,6 @@
-# webpack-demo-framework
-<p>Study project about setting and implementing simple webpack 4 dev environment, whose goal is to study webpack plugins, loders compatibility over time.<p>
-<p>There's also an example page from "Le Point" newspaper remade with react components to study React and HTML simple integration.<p>
+# Project with React, Redux, Redux Actions, Router, Lazy loading, Hooks
+<p>Project setting and implementing simple webpack 4 dev environment, whose goal is to study last versions of webpack plugins, loaders compatibility over time.<p>
+<p>There's a set of pages from LePoint newspaper remade with React components and HTML simple integration.<p>
 
 ### Scripts
 
@@ -15,6 +15,14 @@ npm run server
 aliases
 ```
 node ./dev-server.js
+```
+#### Test with jest
+```
+npm run test
+```
+aliases
+```
+jest --watchAll
 ```
 #### Bundling files in dev mode
 ```

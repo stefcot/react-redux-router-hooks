@@ -1,6 +1,12 @@
+# System files
+
 *.DS_tore
 .DS_Store
+
+# IDE files
 .idea
 .idea/*
+
+# Files and folders
 dist
 node_modules
