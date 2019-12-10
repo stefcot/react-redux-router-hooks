@@ -1,0 +1,77 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/all",
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "settings": {
+    "react": {
+      "version": "16.6.3"
+    },
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "import/imports-first": ["error", "absolute-first"],
+    "import/extensions": [1, {
+      "js": "never",
+      "jsx": "never",
+      "scss": "never"
+    }],
+    "import/newline-after-import": "error",
+    "import/no-webpack-loader-syntax": "warn",
+    "import/no-unresolved": "warn",
+    "dot-notation": "off",
+    "curly": ["error", "all"],
+    "no-console": 0,
+    "no-shadow": 0,
+    "no-trailing-spaces": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".scss"]
+      }
+    ],
+    "react/no-danger": 0,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-unknown-property": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": 1,
+    "react/sort-prop-types": 1,
+    "strict": 0
+  }
+}

@@ -1,0 +1,35 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    color: $white;
+    display: inline-block;
+    left: 50%;
+    line-height: 1.2;
+    padding: 0 5px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    zoom: 1;
+  }
+
+  img {
+    width: auto;
+  }
+
+  .category {
+    bottom: 26px;
+    font-weight: 400;
+    left: 0;
+    position: relative;
+    text-decoration: none;
+    text-decoration-color: $red;
+  }
+
+  @media (prefers-color-scheme) {
+    .root {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    background-color: $white;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: $nav-height-expanded 0 0 0;
+    position: relative;
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    color: inherit;
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    outline: 0 none;
+    padding: 0 $base-padding;
+    text-decoration: inherit;
+
+    svg {
+      fill: white;
+      left: $base-padding;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(0.5);
+      width: auto;
+    }
+  }
+
+  .root__item {
+    color: inherit;
+    display: inline-block;
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    min-width: $base-padding * 2;
+    position: relative;
+    text-decoration: inherit;
+  }
+
+  .root__lbl {
+    color: inherit;
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    text-decoration: inherit;
+  }
+
+  svg + .lnk-cmp__lbl {
+    padding: 0 0 0 $base-padding * 4;
+  }
+}

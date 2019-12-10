@@ -1,0 +1,10 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    background-color: $very-light-grey;
+    min-height: $bar-height;
+    padding: $base-padding * 4 0;
+    position: relative;
+  }
+}

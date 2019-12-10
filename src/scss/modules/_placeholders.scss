@@ -1,0 +1,273 @@
+// Gotham XNarrow Bold Italic
+%gotham-xnarrow-bold-italic {
+  font-family: $font-family-gotham;
+  font-style: italic;
+  font-weight: 700;
+}
+
+// Gotham XNarrow Bold
+%gotham-xnarrow-bold {
+  font-family: $font-family-gotham;
+  font-style: normal;
+  font-weight: 700;
+}
+
+// Gotham XNarrow Medium
+%gotham-xnarrow-medium {
+  font-family: $font-family-gotham;
+  font-style: normal;
+  font-weight: 500;
+}
+
+// Gotham XNarrow Medium Italic
+%gotham-xnarrow-medium-italic {
+  font-family: $font-family-gotham;
+  font-style: italic;
+  font-weight: 500;
+}
+
+// Gotham XNarrow Book Italic
+%gotham-xnarrow-book-italic {
+  font-family: $font-family-gotham;
+  font-style: italic;
+  font-weight: 400;
+}
+
+// Gotham XNarrow Book
+%gotham-xnarrow-book {
+  font-family: $font-family-gotham;
+  font-style: normal;
+  font-weight: 400;
+}
+
+// Gotham XNarrow Light
+%gotham-xnarrow-light {
+  font-family: $font-family-gotham;
+  font-style: normal;
+  font-weight: 300;
+}
+
+// Gotham XNarrow Light Italic
+%gotham-xnarrow-light-italic {
+  font-family: $font-family-gotham;
+  font-style: italic;
+  font-weight: 300;
+}
+
+// PT Serif Regular
+%ptserif {
+  font-family: $font-family-ptserif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+// PT Serif Italic
+%ptserif-italic {
+  font-family: $font-family-ptserif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+// PT Serif Bold
+%ptserif-bold {
+  font-family: $font-family-ptserif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+// PT Serif Bold Italic
+%ptserif-bold-italic {
+  font-family: $font-family-ptserif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+// NAV BAR
+%nav-bar-item {
+  @extend %gotham-xnarrow-book;
+  color: $medium-grey;
+  font-size: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+// LAYOUT, CENTERING CONTENT
+%centered {
+  @include transform-origin(center center);
+  @include transform(translateX(-50%) translateY(-50%));
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+// LAYOUT, CENTERING CONTENT
+%vertically-centered {
+  @include transform-origin(center);
+  @include transform(translateY(-50%));
+  position: absolute;
+  top: 50%;
+}
+
+// Basic font style for utils/block
+%font-size-ref {
+  font-size: 1rem;
+}
+
+// Adds an icon to a link
+%link-with-icon {
+  color: inherit;
+  text-decoration: none;
+
+  span {
+    color: inherit;
+    height: 35px;
+  }
+
+  svg {
+    @extend %vertically-centered;
+
+    path {
+      fill: $medium-grey;
+    }
+  }
+}
+
+// default nav scss (static)
+%default-nav-style {
+  background: repeating-linear-gradient(
+    45deg,
+    $stripe-clear,
+    $stripe-clear 10px,
+    $stripe-dark 10px,
+    $stripe-dark 20px
+  );
+
+  height: 35px;
+}
+
+// FONTS: Default scss if a text block uses ptserif font
+%txt-ptserif {
+  @extend %ptserif;
+
+  line-height: 1.4;
+
+  strong {
+    @extend %ptserif-bold;
+
+    i {
+      @extend %ptserif-bold-italic;
+    }
+  }
+
+  i {
+    @extend %ptserif-italic;
+
+    strong {
+      @extend %ptserif-bold-italic;
+    }
+  }
+}
+
+// FONTS: Default scss if a text block uses gotham narrow font
+%txt-gotham-xnarrow {
+  @extend %gotham-xnarrow-book;
+
+  line-height: 1.4;
+
+  strong {
+    @extend %gotham-xnarrow-bold;
+
+    i {
+      @extend %gotham-xnarrow-bold-italic;
+    }
+  }
+
+  i {
+    @extend %gotham-xnarrow-book-italic;
+
+    strong {
+      @extend %gotham-xnarrow-bold-italic;
+    }
+  }
+}
+
+// FONTS: Default scss for a header using gotham narrow font
+%txt-gotham-xnarrow-bold {
+  @extend %gotham-xnarrow-bold;
+
+  i {
+    @extend %gotham-xnarrow-bold-italic;
+  }
+}
+
+// PARAGRAPH : Basic fonts for paragraphs
+%par-base-font {
+  @extend %txt-ptserif;
+
+  &.g-gotham-book {
+    @extend %txt-gotham-xnarrow;
+  }
+
+  &.g-gotham-bold {
+    @extend %txt-gotham-xnarrow-bold;
+  }
+}
+
+// RED SQUARE
+%red-square {
+  color: $red;
+  display: inline;
+  font-family: $font-family-puce-chiffre;
+  font-size: 0.75em;
+  line-height: inherit;
+  margin-left: 5px;
+  text-indent: 0;
+  i,
+  b {
+    font-family: inherit;
+    font-style: normal;
+  }
+}
+
+// RED SQUARE
+%red-square-after {
+  @extend %red-square;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+
+// Applique une classe d'exponsant
+%txt-exp {
+  font-family: inherit;
+  font-size: 0.6em;
+  font-style: inherit;
+  position: relative;
+}
+
+// Applique une classe d'exponsant
+%txt-ind {
+  font-family: inherit;
+  font-size: 0.6em;
+  font-style: inherit;
+  position: relative;
+}
+
+// Signature : Signature généralement en fin de paragraphe, accompagné d'un carré rouge.
+%txt-sgntr {
+  font-family: inherit;
+  font-size: 1em;
+  font-style: inherit;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 0;
+  text-indent: 2em;
+}
+
+// Rubrique : style commun à tous les surtitres
+%txt-section {
+  display: block;
+  font-size: $default-txt-size;
+  margin: 0 auto 0.5em;
+  text-transform: uppercase;
+}

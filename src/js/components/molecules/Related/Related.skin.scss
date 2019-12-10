@@ -1,0 +1,54 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    color: inherit;
+    display: block;
+    flex-flow: column;
+    font-size: inherit;
+    height: inherit;
+    justify-content: left;
+    line-height: inherit;
+    margin: 0 auto;
+    text-decoration: inherit;
+
+    svg {
+      fill: $white;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(0.25);
+      width: auto;
+    }
+  }
+
+  .item {
+    margin: 0 0 $base-padding 0;
+    padding: 0;
+  }
+
+  .link {
+    display: inline-block;
+    font-size: $base-spacing * 1.4;
+    height: $base-spacing * 1.6;
+    line-height: $base-spacing * 1.9;
+    padding: 0 0 0 $base-spacing * 2;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .icon {
+    background-color: $light-grey;
+    color: $white;
+    display: inline-block;
+    height: $base-spacing * 1.6;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: $base-spacing * 1.6;
+  }
+
+  .premium {
+    background-color: $yellow;
+  }
+}

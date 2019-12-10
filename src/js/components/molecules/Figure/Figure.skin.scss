@@ -1,0 +1,54 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    color: inherit;
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    padding: 0;
+    text-decoration: inherit;
+  }
+
+  .premium {
+    border-top: 4px solid $yellow;
+  }
+
+  img {
+    display: block;
+  }
+
+  .link {
+    color: inherit;
+    display: inline-block;
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    position: relative;
+    text-decoration: inherit;
+  }
+
+  figcaption {
+    display: block;
+    width: 100%;
+  }
+
+  .icon {
+    background-color: $semi-opaque-white;
+    bottom: $base-spacing;
+    display: inline-block;
+    height: $base-spacing * 3;
+    position: absolute;
+    right: $base-spacing;
+    width: $base-spacing * 3;
+
+    svg {
+      fill: $black;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(0.5);
+      width: auto;
+    }
+  }
+}

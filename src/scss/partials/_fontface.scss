@@ -1,0 +1,220 @@
+/**
+ * Gotham XNarrow Bold
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-Bold.eot');
+  src: url('#{$font-directory}GothamXNarrow-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-Bold.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-Bold.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-Bold.svg#GothamXNarrow-Bold')
+      format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/**
+ * Gotham XNarrow Bold Italic
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-BoldItalic.eot');
+  src: url('#{$font-directory}GothamXNarrow-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-BoldItalic.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-BoldItalic.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-BoldItalic.svg#GothamXNarrow-BoldItalic')
+      format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/**
+ * Gotham XNarrow Medium
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-Medium.eot');
+  src: url('#{$font-directory}GothamXNarrow-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-Medium.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-Medium.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-Medium.svg#GothamCond-Medium')
+      format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/**
+ * Gotham XNarrow Medium Italic
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-MediumItalic.eot');
+  src: url('#{$font-directory}GothamXNarrow-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-MediumItalic.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-MediumItalic.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-MediumItalic.svg#GothamCond-Bold')
+      format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/**
+ * Gotham XNarrow Book
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-Book.eot');
+  src: url('#{$font-directory}GothamXNarrow-Book.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-Book.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-Book.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-Book.svg#GothamXNarrow-Book')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**
+ * Gotham XNarrow Book Italic
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-BookItalic.eot');
+  src: url('#{$font-directory}GothamXNarrow-BookItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-BookItalic.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-BookItalic.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-BookItalic.svg#GothamXNarrow-BookItalic')
+      format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/**
+ * Gotham XNarrow Light
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-Light.eot');
+  src: url('#{$font-directory}GothamXNarrow-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-Light.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-Light.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-Light.svg#GothamXNarrow-Light')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/**
+ * Gotham XNarrow Light Italic
+ */
+@font-face {
+  font-family: $gotham-desktop;
+  src: url('#{$font-directory}GothamXNarrow-LightItalic.eot');
+  src: url('#{$font-directory}GothamXNarrow-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}GothamXNarrow-LightItalic.woff') format('woff'),
+    url('#{$font-directory}GothamXNarrow-LightItalic.ttf') format('truetype'),
+    url('#{$font-directory}GothamXNarrow-LightItalic.svg#GothamXNarrow-LightItalic')
+      format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/**
+ * PT Serif Regular
+ */
+@font-face {
+  font-family: $ptserif-desktop;
+  src: url('#{$font-directory}PTSerif-Regular.eot');
+  src: url('#{$font-directory}PTSerif-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}PTSerif-Regular.woff') format('woff'),
+    url('#{$font-directory}PTSerif-Regular.ttf') format('truetype'),
+    url('#{$font-directory}PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**
+ * PT Serif Italic
+ */
+@font-face {
+  font-family: $ptserif-desktop;
+  src: url('#{$font-directory}PTSerif-Italic.eot');
+  src: url('#{$font-directory}PTSerif-Italic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}PTSerif-Italic.woff') format('woff'),
+    url('#{$font-directory}PTSerif-Italic.ttf') format('truetype'),
+    url('#{$font-directory}PTSerif-Italic.svg#PTSerif-Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/**
+ * PT Serif Bold
+ */
+@font-face {
+  font-family: $ptserif-desktop;
+  src: url('#{$font-directory}PTSerif-Bold.eot');
+  src: url('#{$font-directory}PTSerif-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}PTSerif-Bold.woff') format('woff'),
+    url('#{$font-directory}PTSerif-Bold.ttf') format('truetype'),
+    url('#{$font-directory}PTSerif-Bold.svg#PTSerif-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/**
+ * PT Serif Bold Italic
+ */
+@font-face {
+  font-family: $ptserif-desktop;
+  src: url('#{$font-directory}PTSerif-BoldItalic.eot');
+  src: url('#{$font-directory}PTSerif-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}PTSerif-BoldItalic.woff') format('woff'),
+    url('#{$font-directory}PTSerif-BoldItalic.ttf') format('truetype'),
+    url('#{$font-directory}PTSerif-BoldItalic.svg#PTSerif-BoldItalic')
+      format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/**
+ * Puce_LePoint-Book
+ */
+@font-face {
+  font-family: $puce-book;
+  src: url('#{$font-directory}puce_lepoint-book.eot');
+  src: url('#{$font-directory}puce_lepoint-book.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}puce_lepoint-book.woff2') format('woff2'),
+    url('#{$font-directory}puce_lepoint-book.woff') format('woff'),
+    url('#{$font-directory}puce_lepoint-book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Puce_LePoint-Chiffre-V1
+ */
+@font-face {
+  font-family: $puce-chiffre;
+  src: url('#{$font-directory}puce_chiffre_v1-webfont.eot');
+  src: url('#{$font-directory}puce_chiffre_v1-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-directory}puce_chiffre_v1-webfont.woff2') format('woff2'),
+    url('#{$font-directory}puce_chiffre_v1-webfont.woff') format('woff'),
+    url('#{$font-directory}puce_chiffre_v1-webfont.ttf') format('truetype'),
+    url('#{$font-directory}puce_chiffre_v1-webfont.svg#puce_chiffre_v1-webfont')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,22 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    background-color: $black;
+    color: $white;
+    font-size: 15px;
+    height: $nav-height;
+    left: 0;
+    line-height: 2.2;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    li {
+      border-left: 1px solid $very-dark-grey;
+      padding: 0 $base-padding * 2;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box Component Snapshot Test 1`] = `
+<article
+  id="excliusivite"
+>
+  <h2>
+    Première boite
+  </h2>
+  <section>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+    </p>
+    <p>
+      Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+    </p>
+  </section>
+</article>
+`;

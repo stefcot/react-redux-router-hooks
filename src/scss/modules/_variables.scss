@@ -1,0 +1,48 @@
+// FONTS - FONTS NAMES
+$gotham-application: 'GothamXNarrow';
+$gotham-desktop: 'Gotham';
+
+$ptserif-application: 'PT_SerifWeb';
+$ptserif-desktop: 'PT Serif';
+
+$puce-book: 'PuceLePoint';
+$puce-chiffre: 'PuceLePointChiffre';
+
+// FONTS - FONTS FAMILY NAMES
+$font-family-gotham: $gotham-application, $gotham-desktop, Arial, serif;
+$font-family-ptserif: $ptserif-application, $ptserif-desktop, Georgia, serif;
+$font-family-puce: $puce-book, Arial, serif;
+$font-family-puce-chiffre: $puce-chiffre, Arial, serif;
+
+// FONTS - ASSETS DIRECTORIES FOR RESOLVE-URL-LOADER
+$font-directory: '../../assets/fonts/';
+$images-directory: '../../assets/images/';
+
+// LAYOUT - HEADER
+$header-size: 3em;
+
+// LAYOUT - BOXES
+$bar-height: 3;
+
+// LAYOUT - SPACINGS
+$base-spacing: 10px;
+$gutter: $base-spacing * 2;
+$side-padding: $base-spacing;
+$base-padding: $base-spacing / 2;
+$block-spacing: $base-spacing - $base-padding;
+
+// LAYOUT - BLOCKS
+$content-width: 1000px;
+$small-content-max-width: 700px;
+$large-content-max-width: $content-width;
+$nav-height: 30px;
+
+// LAYOUT - HEADER
+$nav-height-expanded: 150px;
+$nav-height-collapsed: 50px;
+
+// FONTS - SIZE
+$mobile-txt-size: 1.4em;
+$desktop-txt-size: 1.9em;
+$default-txt-size: 2em;
+$vertical-white-space: $base-spacing * 2;

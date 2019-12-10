@@ -1,0 +1,9 @@
+@import '~styles/context';
+
+:local {
+  .root {
+    margin: 0;
+    padding: 0 $base-spacing;
+    width: 66.6666666%;
+  }
+}

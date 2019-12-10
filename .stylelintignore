@@ -1,0 +1,5 @@
+dist/*
+node_modules/*
+src/scss/compass-mixins/*
+src/scss/modules/*
+src/scss/partials/*

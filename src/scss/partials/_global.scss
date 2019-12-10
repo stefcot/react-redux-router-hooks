@@ -1,0 +1,186 @@
+/**
+ * Will contain all case in scss like applying size and/or color,
+ * works only if default proper has not been defined.
+ *
+ * As said above, only scss, not layout props.
+ *
+ * To be applied provided that no prop has been previously defined.
+ * Either declared globally as so or has a local modifier if the prop is defined.
+ */
+
+:global {
+  /** Surcharge de couleur de texte, rouge. hex: <i>FFFFFF</i>, rvb: <i>255, 255, 255</i> */
+  .glbl-white {
+    color: $white;
+  }
+
+  /** Surcharge de couleur de texte, rouge. hex: <i>AC0000</i>, rvb: <i>172, 0, 0</i> */
+  .glbl-red {
+    color: $red;
+  }
+
+  /** Surcharge de couleur de texte, noir. hex: <i>00000</i>, rvb: <i>0, 0, 0</i> */
+  .glbl-black {
+    color: $black;
+  }
+
+  /** Surcharge de couleur de texte, marron. hex: <i>7F4411</i>, rvb: <i>127, 68, 17</i> */
+  .glbl-brown {
+    color: $brown;
+  }
+
+  /** Surcharge de couleur de texte, jaune. hex: <i>FFBB00</i>, rvb: <i>255, 187, 0</i> */
+  .glbl-yellow {
+    color: $yellow;
+  }
+
+  /** Surcharge de couleur de texte, vert. hex: <i>669900</i>, rvb: <i>102, 153, 0</i> */
+  .glbl-green {
+    color: $green;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, rose.<br>
+     * hex: <i>669900</i>, rvb: <i>102, 153, 0</i>
+     */
+  .glbl-html-rose {
+    color: $web-pink;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, vin.<br>
+     * hex: <i>961923</i>, rvb: <i>150, 25, 35</i>
+     */
+  .glbl-html-vin {
+    color: $web-wine;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, rouge.<br>
+     * hex: <i>AC0000</i>, rvb: <i>172, 0, 0</i>
+     */
+  .glbl-html-rouge {
+    color: $web-red;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, fraise.<br>
+     * hex: <i>d14d3e</i>, rvb: <i>209, 77, 62</i>
+     */
+  .glbl-html-fraise {
+    color: $web-strawberry;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, orange.<br>
+     * hex: <i>d77d1e</i>, rvb: <i>215, 125, 30</i>
+     */
+  .glbl-html-orange {
+    color: $web-orange;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, jaune.<br>
+     * hex: <i>edc021</i>, rvb: <i>237, 192, 33</i>
+     */
+  .glbl-html-jaune {
+    color: $web-yellow;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, besson.<br>
+     * hex: <i>faf0b2</i>, rvb: <i>250, 240, 178</i>
+     */
+  .glbl-html-besson {
+    color: $web-besson;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, champagne.<br>
+     * hex: <i>af965f</i>, rvb: <i>175, 150, 95</i>
+     */
+  .glbl-html-champagne {
+    color: $web-champagne;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, marron.<br>
+     * hex: <i>78644b</i>, rvb: <i>120, 100, 75</i>
+     */
+  .glbl-html-marron {
+    color: $web-brown;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, gris.<br>
+     * hex: <i>4b4645</i>, rvb: <i>75, 70, 69</i>
+     */
+  .glbl-html-gris {
+    color: $web-grey;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, gris bleu.<br>
+     * hex: <i>5a6e77</i>, rvb: <i>90, 110, 119</i>
+     */
+  .glbl-html-gris-bleu {
+    color: $web-blue-gray;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, baro.<br>
+     * hex: <i>3264aa</i>, rvb: <i>50, 100, 170</i>
+     */
+  .glbl-html-baro {
+    color: $web-baro;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, cyan.<br>
+     * hex: <i>3ca0d2</i>, rvb: <i>60, 160, 70</i>
+     */
+  .glbl-html-cyan {
+    color: $web-cyan;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, vert postillon.<br>
+     * hex: <i>dbe9d8</i>, rvb: <i>219, 233, 216</i>
+     */
+  .glbl-html-vert-postillon {
+    color: $web-postillon-green;
+  }
+
+  /**
+     * Surcharge de couleur de texte web communiquée par Aurélien, vert.<br>
+     * hex: <i>469b5a</i>, rvb: <i>70, 155, 90</i>
+     */
+  .glbl-html-vert {
+    color: $web-green;
+  }
+
+  /** Surcharge de style de texte, centrage */
+  .glbl-txt-alg-ctr {
+    text-align: center;
+  }
+
+  /** Surcharge de style de texte, texte en majuscule */
+  .glbl-txt-cap {
+    text-transform: uppercase;
+  }
+
+  /** Modifieur: surcharge de style de texte, pas de marge en bas */
+  .glbl-no-bt-mrg {
+    margin-bottom: 0;
+  }
+
+  /** Modifieur: surcharge de style de texte, pas de marge en bas */
+  .glbl-bt-mrg {
+    margin-bottom: $block-spacing;
+  }
+
+  /** Modifieur: surcharge de style de texte, pas de marge en haut */
+  .glbl-no-tp-mrg {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "url": "index.php?page=categorie&amp;theme=lp:w:actu:politique",
+      "label": "Politique"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:actu:monde",
+      "label": "International"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:economie",
+      "label": "Économie"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:actu:societe",
+      "label": "Tech&amp;net"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:culture",
+      "label": "Culture"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:actu:insolite",
+      "label": "Débats"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:sciencenat",
+      "label": "Sciences"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:actu:sports",
+      "label": "Santé"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:tendances",
+      "label": "Sports"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:tendances",
+      "label": "Lifestyle"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:tendances",
+      "label": "Vidéos"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:tendances",
+      "label": "Le Point Afrique"
+    },
+    {
+      "url": "?page=categorie&amp;theme=lp:w:tendances",
+      "label": "L'hebdo"
+    }
+  ],
+  "websites": [
+    {
+      "url": "https://www.lepoint.fr/",
+      "label": "Le Point",
+      "icon": "home"
+    },
+    {
+      "url": "https://www.lepoint.fr/montres/",
+      "label": "Montres"
+    },
+    {
+      "url": "/pop-culture/",
+      "label": "Le Point Pop"
+    },
+    {
+      "url": "https://www.lepoint.fr/automobile/",
+      "label": "Auto"
+    },
+    {
+      "url": "https://www.lepoint.fr/vin/",
+      "label": "Vin"
+    },
+    {
+      "url": "/phebe/",
+      "label": "Phébé"
+    },
+    {
+      "url": "#",
+      "label": "Services",
+      "onclick": "return xt_click(this,'C','214','Header::Services::Affichage_menu','A');"
+    },
+    {
+      "url": "https://moncompte.lepoint.fr/campagne/newsletters/origine/site_web_lepoint_header_NL",
+      "label": "Newsletters",
+      "onclick": "return xt_click(this,'C','214','Header::Newsletters::Newsletters','N');",
+      "data-dmp": ""
+    },
+    {
+      "url": "https://www.facebook.com/lepoint.fr",
+      "onclick": "return xt_click(this,'C','214','Header::Reseaux::Facebook','A');",
+      "data-dmp": "'clic','Header','Partage_Facebook'",
+      "icon": "facebook"
+    },
+    {
+      "url": "https://twitter.com/LePoint",
+      "onclick": "return xt_click(this,'C','214','Header::Reseaux::Twitter','A');",
+      "data-dmp": "'clic','Header','Partage_Twitter'",
+      "icon": "twitter"
+    },
+    {
+      "url": "/recherche/index.php",
+      "icon": "search"
+    }
+  ]
+}

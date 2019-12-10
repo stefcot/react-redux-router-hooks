@@ -1,0 +1,51 @@
+*::selection {
+  background-color: $red;
+  color: $white;
+}
+
+*,
+*::before,
+*::after {
+  @include box-sizing(border-box);
+}
+
+html {
+  @include text-size-adjust(none);
+  background: $white;
+  font-family: $font-family-gotham;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0;
+
+  &.noscroll {
+    height: 100%;
+    overflow-y: hidden;
+  }
+}
+
+h3 {
+  font-size: 1.9em;
+  margin-bottom: 0;
+  font-family: $font-family-gotham;
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:visited {
+    opacity: 0.5;
+  }
+}

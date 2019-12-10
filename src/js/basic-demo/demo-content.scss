@@ -1,0 +1,26 @@
+@import '~styles/context';
+
+:local {
+  .box {
+    background-color: transparent;
+    border: 5px solid $red;
+    margin: 0 auto;
+    padding: $base-spacing * 2;
+
+    &__title {
+      @extend %gotham-xnarrow-bold;
+
+      color: $dark-grey;
+      font-size: $base-spacing * 2;
+      line-height: 1.2;
+    }
+
+    &__text {
+      @extend %ptserif;
+
+      color: $dark-grey;
+      font-size: $base-spacing * 1.4;
+      line-height: 1.1;
+    }
+  }
+}

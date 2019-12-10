@@ -1,0 +1,89 @@
+/**
+ * When applied to a container,
+ * allows its content to get a 980px width
+ * Elements/component contazinig an image
+ */
+@mixin full-width-management($selector) {
+  @if ($selector) {
+    @extend #{$selector};
+  }
+
+  margin-left: 0;
+  margin-right: 0;
+  max-width: $small-content-max-width;
+
+  &--full-width {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: $large-content-max-width;
+    width: auto;
+  }
+
+  @media all and (min-width: $large-content-max-width) {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: $small-content-max-width;
+
+    &--full-width {
+      margin-left: -15em;
+      margin-right: -15em;
+      max-width: $large-content-max-width;
+      width: auto;
+    }
+  }
+}
+
+// Creates scss for colored badges
+@mixin txt-badge($color, $has-bg) {
+  @extend %gotham-xnarrow-bold;
+  @include border-radius(50%);
+  @include inline-block();
+  border: 3px solid $color;
+  font-size: 1em;
+  height: 2em;
+  line-height: 1.8;
+  margin: 0 0.25em 0 0;
+  text-align: center;
+  text-indent: 0;
+  width: 2em;
+
+  @if ($has-bg == true) {
+    background-color: $color;
+    color: $white;
+  }
+  @elseif ($has-bg == false) {
+    background-color: $white;
+    color: $color;
+  }
+}
+
+// text-size-adjust
+//------------------------------------------------
+//
+// Values: none (default), auto, 100%
+//
+// Reference:
+// https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+@mixin text-size-adjust($value: none) {
+  -webkit-text-size-adjust: $value;
+  -moz-text-size-adjust: $value;
+  -ms-text-size-adjust: $value;
+}
+
+// Banner below the menu bar that takes the full width of the page
+@mixin fullBanner($bgcolor, $color) {
+  background-color: $bgcolor;
+  color: $color;
+  position: relative;
+  top: 35px;
+  text-align: center;
+  width: 100%;
+  &__marg {
+    line-height: 0.9em;
+    margin: 0.6em 0 0.5em;
+  }
+  .cnt-hdr-cmp__sctn {
+    font-size: 1em;
+    color: inherit;
+  }
+}

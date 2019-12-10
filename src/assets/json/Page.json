@@ -1,0 +1,1858 @@
+{
+  "page": "accueil",
+  "ctx": "https://www.lepoint.fr/",
+  "header": {
+    "preHeader": {
+      "nav": [
+        {
+          "type": "big",
+          "label": "Le Point",
+          "url": "/",
+          "icon": "home"
+        },
+        {
+          "type": "big",
+          "label": "Montres",
+          "url": "/montres/"
+        },
+        {
+          "type": "big",
+          "label": "Le Point Pop",
+          "url": "/pop-culture/"
+        },
+        {
+          "type": "big",
+          "label": "Auto",
+          "url": "/automobile/"
+        },
+        {
+          "type": "big",
+          "label": "Vin",
+          "url": "/vin/"
+        },
+        {
+          "type": "big",
+          "label": "Phébé",
+          "url": "/phebe/"
+        },
+        {
+          "type": "big",
+          "label": "Services",
+          "url": "#"
+        },
+        {
+          "type": "small",
+          "url": "https://www.facebook.com/lepoint.fr",
+          "icon": "facebook"
+        },
+        {
+          "type": "small",
+          "url": "https://twitter.com/LePoint",
+          "icon": "twitter"
+        },
+        {
+          "type": "small",
+          "url": "https://www.lepoint.fr/recherche/index.php",
+          "icon": "search"
+        }
+      ],
+      "user": [
+        {
+          "type": "big",
+          "label": "Identifiez-vous",
+          "url": "https://moncompte.lepoint.fr/",
+          "icon": "user"
+        },
+        {
+          "type": "big-yellow",
+          "label": "Abonnez-vous",
+          "url": "https://lepoint.commander1.com/c3/?tcs=2217&amp;chn=autopromo&amp;src=LePointfr&amp;cmp=Fil_rouge&amp;med=Etiquette_sur_header&amp;pub=&amp;crtive=&amp;vson=&amp;fmt=&amp;adgrp=&amp;sem_kw=&amp;aff_id=&amp;aff_name=&amp;url=https://abo.lepoint.fr/"
+        }
+      ]
+    },
+    "menuButton": {
+      "label": "menu",
+      "url": "#"
+    },
+    "logo": {
+      "label": "Retour à l&#39;accueil",
+      "url": "https://www.lepoint.fr/",
+      "src": "logo-lepoint.svg",
+      "src-ie9": "https://static.lpnt.fr/static/img/logo/logo-lepoint.png",
+      "width": "256",
+      "height": "86"
+    },
+    "cover": {
+      "image": {
+        "imgPath": "2413.jpg",
+        "alt": "Le Point Actualité",
+        "width": 82,
+        "height": 196,
+        "legend": "",
+        "icon": ""
+      },
+      "contentPath": "https://www.lepoint.fr/versions-numeriques/"
+    },
+    "categories": {
+      "nav": [
+        {
+          "type": "categories",
+          "label": "Politique",
+          "url": "/politique/"
+        },
+        {
+          "type": "categories",
+          "label": "International",
+          "url": "/monde/"
+        },
+        {
+          "type": "categories",
+          "label": "Économie",
+          "url": "/economie/"
+        },
+        {
+          "type": "categories",
+          "label": "Tech &amp; Net",
+          "url": "/high-tech-internet/"
+        },
+        {
+          "type": "categories",
+          "label": "Culture",
+          "url": "/culture/"
+        },
+        {
+          "type": "categories",
+          "label": "Débats",
+          "url": "/debats/"
+        },
+        {
+          "type": "categories",
+          "label": "Sciences",
+          "url": "/sciences-nature/"
+        },
+        {
+          "type": "categories",
+          "label": "Santé",
+          "url": "/sante/"
+        },
+        {
+          "type": "categories",
+          "label": "Sports",
+          "url": "/sport/"
+        },
+        {
+          "type": "categories",
+          "label": "Lifestyle",
+          "url": "/art-de-vivre/"
+        },
+        {
+          "type": "categories",
+          "label": "Afrique",
+          "url": "http://afrique.lepoint.fr/"
+        },
+        {
+          "type": "categories",
+          "label": "Vidéos",
+          "url": "/video/"
+        },
+        {
+          "type": "categories",
+          "label": "Abonnés",
+          "url": "/edition-abonnes/"
+        }
+      ]
+    }
+  },
+  "main": {
+    "menu-secondaire": {
+      "title": "à la Une",
+      "nav": [
+        {
+          "label": "Nouvelles mobilités",
+          "contentPath": "/dossiers/societe/velo-libre-service-velib/"
+        },
+        {
+          "label": "Alzheimer : protégez-vous",
+          "contentPath": "/dossiers/sante/alzheimer-memoire/"
+        },
+        {
+          "label": "Spécial grammaire",
+          "contentPath": "/societe/la-methode-grevisse/"
+        },
+        {
+          "label": "À mi-mandat, l'Amérique divisée",
+          "contentPath": "/dossiers/monde/midterms-2018-elections-mi-mandat-etats-unis/"
+        },
+        {
+          "label": "Italie-UE : le bras de fer",
+          "contentPath": "/dossiers/monde/italie-impasse-politique/"
+        },
+        {
+          "label": "Tous les prix littéraires",
+          "contentPath": "/livres/"
+        }
+      ]
+    },
+    "content": [
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full",
+            "title": "Gilets jaunes&nbsp;: un homme est décédé à Arles",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/societe/gilets-jaunes-378-gardes-a-vue-et-133-blesses-apres-les-violences-a-paris-02-12-2018-2275891_23.php",
+            "lead": "VIDÉO. De nombreux actes de violence ont éclaté ce week-end en marge de la troisième journée d'action. À Paris, il y a plus d'une centaine de blessés. <span class=\"smaller font-black-5\"><i class=\"ion-chatbubbles\"></i> 42</span>",
+            "comments": {
+              "number": 42
+            },
+            "image": {
+              "imgPath": "17649888LPW_17649895_Une__gilets-jaunes--violences--blesses_660x287.jpg",
+              "alt": "Parmi la centaine de blesses, une vingtaine fait partie des forces de l&#39;ordre.",
+              "width": 660,
+              "height": 287,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Gilets jaunes&nbsp;: après le chaos, Macron convoque une réunion de crise",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/societe/gilets-jaunes-devant-le-chaos-l-elysee-en-situation-de-crise-02-12-2018-2275861_23.php",
+            "lead": "Arrivé à Paris en fin de matinée, Emmanuel Macron réunit Édouard Philippe et Christophe Castaner afin de trouver une réponse à un mouvement qui semble incontrôlable.",
+            "comments": {
+              "number": 161
+            },
+            "image": {
+              "imgPath": "17649594lpw-17649610-sommaire-gilets-jaunes-emmanuel-macron-jpg_5773759_200x133.jpg",
+              "alt": "Emmanuel Macron a condamne samedi depuis Buenos Aires les violences observees a Paris pendant la manifestation",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": [
+              {
+                "title": "Neumann - Gilets jaunes&nbsp;: il n'y a pas que l'économie dans la vie&nbsp;!",
+                "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                "isPremium": true
+              },
+              {
+                "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "<span class=\"glbl-red\">EN IMAGES.</span> Gilets jaunes&nbsp;: l'escalade de la violence",
+            "author": "Le Point.fr",
+            "isPremium": false,
+            "contentPath": "/societe/en-images-gilets-jaunes-l-escalade-de-la-violence-01-12-2018-2275792_23.php",
+            "lead": "À Paris, dès le début de la journée, des manifestants ont affronté les forces de l'ordre en haut des Champs-Élysées avec une violence «&nbsp;rarement atteinte&nbsp;». <span class=\"smaller font-black-5\"><i class=\"ion-chatbubbles\"></i> 82</span>",
+            "comments": {
+              "number": 82
+            },
+            "image": {
+              "imgPath": "17647247-17647237-p-jpg_5772560_200x133.jpg",
+              "alt": "",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "camera"
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Pulvar&nbsp;: «&nbsp;C'est l'attentisme du gouvernement qui a provoqué la crise des Gilets jaunes&nbsp;»",
+            "author": "Olivier Pérou",
+            "contentPath": "/politique/pulvar-sur-la-transition-ecologique-macron-est-coince-dans-l-ancien-monde-01-12-2018-2275730_20.php",
+            "lead": "VIDÉO. Emmanuel Macron, fiscalité, transition écologique... L'ancienne journaliste, devenue présidente de la Fondation pour la nature et l'homme, se confie.",
+            "comments": {
+              "number": 124
+            },
+            "image": {
+              "imgPath": "17643678lpw-17643922-sommaire-macron-ppe-hulot-pulvar-jpg_5773311_200x133.jpg",
+              "alt": "L&#39;ancienne journaliste Audrey Pulvar desormais a la tete de la Fondation pour la nature et l&#39;homme (FNH)  (C)CHARLY TRIBALLEAU",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": [
+              {
+                "type": "related",
+                "title": "Débat - La colère des Gilets jaunes est-elle illégitime&nbsp;?",
+                "contentPath": "/politique/debat-la-colere-des-gilets-jaunes-est-elle-illegitime-16-11-2018-2271856_20.php",
+                "isPremium": false
+              },
+              {
+                "type": "related",
+                "title": "TRIBUNE. Réinventons le dialogue autour de la transition écologique&nbsp;!",
+                "contentPath": "/politique/tribune-reinventons-le-dialogue-autour-de-la-transition-ecologique-25-11-2018-2274228_20.php",
+                "isPremium": false
+              },
+              {
+                "type": "related",
+                "title": "Nicolas Hulot coupe les ponts avec Emmanuel Macron",
+                "contentPath": "/politique/nicolas-hulot-coupe-les-ponts-avec-emmanuel-macron-23-11-2018-2273749_20.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "half",
+            "title": "Ces idéologues qui poussent à la guerre civile",
+            "author": "Clément Pétreault",
+            "isPremium": false,
+            "contentPath": "/politique/ces-ideologues-qui-poussent-a-la-guerre-civile-29-11-2018-2275275_20.php",
+            "lead": "Zemmour, Soral, Fassin… Obsédés à des degrés divers par l'identité, ils renvoient chacun à son origine ou à sa religion, divisant les Français.",
+            "comments": {
+              "number": 73
+            },
+            "image": {
+              "imgPath": "17632551lpw-17632544-mega-une-jpg_5773781_320x139.jpg",
+              "alt": "Houria Bouteldja, porte-parole du Parti des indigenes de la Republique, lors d&#39;une manifestation a Paris contre les &amp;lt;&amp;lt; violences policieres &amp;gt;&amp;gt;, le 19 mars 2017.  (C)Romain BEURRIER/REA",
+              "width": 320,
+              "height": 139,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "half",
+            "title": "Gilets jaunes&nbsp;: à Paris, «&nbsp;ça sent la révolution&nbsp;»",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/societe/gilets-jaunes-a-paris-ca-sent-la-revolution-01-12-2018-2275815_23.php",
+            "lead": "VIDÉOS. Samedi, alors que les Gilets jaunes manifestaient dans les rues de la capitale, de nombreuses scènes de guérilla urbaine se sont déroulées en périphérie.",
+            "comments": {
+              "number": 116
+            },
+            "image": {
+              "imgPath": "17647536lpw-17648027-mega-une-jpg_5773465_320x139.jpg",
+              "alt": "De nombreux degats ont eu lieu a Paris ce samedi.  (C)GEOFFROY VAN DER HASSELT",
+              "width": 320,
+              "height": 139,
+              "legend": "",
+              "icon": "play"
+            }
+          }
+        ]
+      },
+      {
+        "type": "FlexSlider",
+        "list": [
+          {
+            "type": "small",
+            "title": "Ce qui préoccupe les services de renseignements",
+            "author": "Aziz Zemouri",
+            "isPremium": false,
+            "contentPath": "/politique/ce-qui-preoccupe-les-services-de-renseignement-28-11-2018-2275061_20.php",
+            "lead": "Les appels à la guerre civile par les groupes extrémistes de droite ou de gauche sont pris très au sérieux par les agents de la DGSI, du SCRT et de la DRPP.",
+            "image": {
+              "imgPath": "",
+              "alt": "",
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "small",
+            "title": "EN IMAGES. Gilets jaunes&nbsp;: l'escalade de la violence",
+            "author": "Marc Fourny ",
+            "isPremium": false,
+            "contentPath": "/musique/sylvie-vartan-chanter-johnny-c-est-une-facon-de-reprendre-le-flambeau-29-11-2018-2275415_38.php",
+            "lead": "ENTRETIEN. La chanteuse revient avec un album de reprises de chansons de Johnny Hallyday, son ex-mari, mort il y a un an. Souvenirs, souvenirs…",
+            "comments": [],
+            "image": {
+              "imgPath": "",
+              "alt": "",
+              "legend": "",
+              "icon": ""
+            }
+          },
+          {
+            "type": "small",
+            "title": "Comment ma mère&nbsp;a été internée dans un «&nbsp;camp de rééducation&nbsp;» en Chine",
+            "author": "Louis Chahuneau",
+            "isPremium": false,
+            "contentPath": "/monde/comment-ma-mere-a-ete-internee-dans-un-camp-de-reeducation-en-chine-30-11-2018-2275592_24.php",
+            "lead": "Une femme, d'origine ouïghoure, a disparu lors d'un voyage dans le Xinjiang alors que sa famille vit exilée en France depuis&nbsp;12&nbsp;ans. Sa fille témoigne.",
+            "comments": [],
+            "image": {
+              "imgPath": "",
+              "alt": "",
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full",
+            "title": "Affaire Khashoggi, ces messages qui incriminent",
+            "author": "Armin Arefi",
+            "isPremium": false,
+            "contentPath": "/monde/affaire-khashoggi-ces-messages-qui-incriminent-mbs-02-12-2018-2275912_24.php",
+            "lead": "D'après le «&nbsp;Wall Street Journal&nbsp;», la CIA a intercepté&nbsp;11&nbsp;messages envoyés par le prince héritier à l'homme qui a supervisé l'assassinat du journaliste saoudien.",
+            "comments": {
+              "number": 4
+            },
+            "image": {
+              "imgPath": "17649956LPW_17650022_Une__MohammedBenSalmaneJamalKhashoggiCIA_660x287.jpg",
+              "alt": "Le prince heritier d&#39;Arabie saoudite, Mohammed ben Salmane, attendant les autres dirigeants etrangers du G20 pour la photo de famille, le 30 novembre 2018, a Buenos Aires. (C)RALF HIRSCHBERGER",
+              "width": 660,
+              "height": 287,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Ce&nbsp;2&nbsp;décembre, serez-vous plutôt Napoléon ou MBZ&nbsp;?",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/histoire/ce-2-decembre-serez-vous-plutot-napoleon-ou-mbz-02-12-2018-2275904_1615.php",
+            "lead": "L'anniversaire du sacre de l'Empereur et de la victoire d'Austerlitz est concurrencé par celui de la création des Émirats arabes unis. Explications.",
+            "comments": {
+              "number": 6
+            },
+            "image": {
+              "imgPath": "17650005lpw-17650019-sommaire-napoleon-mbz-jpg_5773629_200x133.jpg",
+              "alt": "Napoleon est sacre empereur le 2 decembre 1804. Ce meme jour, 167 ans plus tard, les Emirats arabes unis gagnent leur independance.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Gilets jaunes&nbsp;: un appel contre les violences lancé par un collectif",
+            "author": "Le Point.fr",
+            "isPremium": false,
+            "contentPath": "/societe/gilets-jaunes-un-appel-contre-les-violences-lance-par-un-collectif-02-12-2018-2275870_23.php",
+            "lead": "Dans le «&nbsp;JDD&nbsp;», un collectif se disant Gilets jaunes libres condamne les violences liées au mouvement et souhaite être reçu par le Premier ministre.",
+            "comments": {
+              "number": 36
+            },
+            "image": {
+              "imgPath": "17649636lpw-17649843-sommaire-gilets-jaunes-protestation-jpg_5773287_200x133.jpg",
+              "alt": "Dans ce collectif de Gilets jaunes libres, aucun des porte-parole nommés par le mouvement, mais d'autres figures médiatiques de la première heure, dont Jacline Mouraud et Benjamin Cauchy.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                "isPremium": true
+              },
+              {
+                "title": "Neumann - Gilets jaunes&nbsp;: il n'y a pas que l'économie dans la vie&nbsp;!",
+                "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Euro-2020&nbsp;: la France hérite d'un groupe abordable",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/sport/football/euro-2020-la-france-herite-d-un-groupe-abordable-02-12-2018-2275938_1858.php",
+            "lead": "Pour les qualifications de l'Euro 2020, la France sera dans le groupe H avec l'Islande, la Turquie, l'Albanie, la Moldavie et Andorre.",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17643678lpw-17643922-sommaire-macron-ppe-hulot-pulvar-jpg_5773311_200x133.jpg",
+              "alt": "La France n'a jamais perdu en compétition officielle contre les équipes de son groupe.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "folder"
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "Sondage",
+        "title": "Emmanuel Macron doit-il dissoudre l'Assemblée nationale&nbsp;?",
+        "contentPath": "/sondages-oui-non/emmanuel-macron-doit-il-dissoudre-l-assemblee-nationale-02-12-2018-2275889_1923.php",
+        "reponses": {
+          "oui": {
+            "nombre": 7995,
+            "pourcentage": 53.6
+          },
+          "non": {
+            "nombre": 6912,
+            "pourcentage": 46.4
+          }
+        }
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full-mini",
+            "title": "2 décembre 1805. Le jour où le colonel Morland meurt à Austerlitz avant d'être embaumé",
+            "author": "Gwendoline Dos Santos et Frédéric Lewino",
+            "isPremium": true,
+            "contentPath": "/c-est-arrive-aujourd-hui/2-decembre-1805-tombe-a-austerlitz-le-colonel-morland-est-embaume-sur-ordre-de-napoleon-recette-01-12-2012-1536579_494.php",
+            "lead": "L'anniversaire du sacre de l'Empereur et de la victoire d'Austerlitz est concurrencé par celui de la création des Émirats arabes unis. Explications.",
+            "comments": {
+              "number": 10
+            },
+            "image": {
+              "imgPath": "2319314lp-2319315-sommaire-jpg_5773005_200x133.jpg",
+              "alt": "",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Protégez-vous #4 -&nbsp;Comment se défendre lors d'une agression par-derrière&nbsp;?",
+            "author": "Guillaume Paret ",
+            "isPremium": true,
+            "contentPath": "/sport/protegez-vous-4-comment-se-defendre-lors-d-une-agression-par-derriere-02-12-2018-2275896_26.php",
+            "lead": "VIDÉO. Un expert en arts martiaux et en self-défense vous confie chaque dimanche ses secrets. Cette semaine, apprenez à vous défendre lors d'une agression par-derrière.",
+            "image": {
+              "imgPath": "17647970lpw-17647976-sommaire-ropers-agression-jpg_5773382_200x133.jpg",
+              "alt": "Franck Ropers, expert en self-defense.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                "isPremium": true
+              },
+              {
+                "title": "Neumann - Gilets jaunes&nbsp;: il n'y a pas que l'économie dans la vie&nbsp;!",
+                "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                "isPremium": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "half",
+            "title": "Foot&nbsp;: le PSG autant aimé que détesté par les Français&nbsp;!",
+            "author": "Le Point.fr",
+            "isPremium": false,
+            "contentPath": "/sport/football/foot-le-psg-autant-aime-que-deteste-par-les-francais-02-12-2018-2275897_1858.php",
+            "lead": "D'après une récente enquête, les Français ont un sentiment ambivalent à propos du club parisien. Le PSG est aussi l'équipe qui compte le plus de nouveaux fans.",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17647158lpw-17647166-mega-une-psg-sondage-neymar-jpg_5773398_320x139.jpg",
+              "alt": "Si 34&nbsp;% des Français déclarent dans un sondage que le PSG de Neymar et Mbappé est leur club préféré, ils sont 27&nbsp;% à affirmer qu'ils le détestent.&nbsp;  ©GEOFFROY VAN DER HASSELT",
+              "width": 320,
+              "height": 139,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "half",
+            "title": "FOG - Mais comment en sommes-nous arrivés là&nbsp;?",
+            "author": "",
+            "isPremium": true,
+            "contentPath": "/editos-du-point/franz-olivier-giesbert/fog-mais-comment-en-sommes-nous-arrives-la-30-11-2018-2275480_70.php",
+            "lead": "Il faut lire ces lanceurs d'alerte que sont Jean-Claude Michéa et Christophe Guilluy, observe l'éditorialiste, pour comprendre la colère des Gilets jaunes.",
+            "comments": {
+              "number": 149
+            },
+            "image": {
+              "imgPath": "17444053lpw-17444051-mega-une-jpg_5693509_320x139.jpg",
+              "alt": "",
+              "width": 320,
+              "height": 139,
+              "legend": "",
+              "icon": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full-mini",
+            "title": "Neumann - Gilets jaunes : il n'y a pas que l'économie dans la vie !",
+            "author": "Laurent Neumann",
+            "isPremium": true,
+            "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+            "lead": "Alors que le mouvement semble s'inscrire dans la durée, l'exécutif paraît à court d'idées pour calmer la grogne. Et s'il faisait de la politique&nbsp;?",
+            "comments": {
+              "number": 127
+            },
+            "image": {
+              "imgPath": "17643033lpw-17643118-sommaire-macron-philippe-jpg_5773336_200x133.jpg",
+              "alt": "Emmanuel Macron et Edouard Philippe semblent a court de reponses contre la colere des Gilets jaunes.  (C)LUDOVIC MARIN",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Delhommais - Pouvoir d'achat, carburant... ces paradoxes français",
+                "contentPath": "/pierre-antoine-delhommais-la-revolte-des-volants-31-10-2018-2267506_32.php",
+                "isPremium": true
+              },
+              {
+                "title": "Pouvoir d’achat&nbsp;: vérités et idées reçues",
+                "contentPath": "/economie/pouvoir-d-achat-verites-et-idees-recues-14-11-2018-2271411_28.php",
+                "isPremium": true
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Quand les Britanniques aimaient l'Europe…",
+            "author": "",
+            "isPremium": true,
+            "contentPath": "https://www.lepoint.fr/phebe/quand-les-britanniques-aimaient-l-europe-02-12-2018-2275888_3590.php",
+            "lead": "Dans son dernier livre, l'historien Robert Saunders revient sur le contexte politique du référendum qui a maintenu le Royaume-Uni dans la CEE en 1975.",
+            "comments": {
+              "number": 1
+            },
+            "image": {
+              "imgPath": "17641996lpw-17642043-sommaire-brexit-europe-jpg_5773303_200x133.jpg",
+              "alt": "De gauche a droite, le Premier ministre britannique Harold Wilson et le chancelier allemand Helmut Schmidt, en 1975.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full",
+            "title": "L'habit ne fait pas le nazi",
+            "author": "Armin Arefi",
+            "isPremium": true,
+            "contentPath": "/debats/l-habit-ne-fait-pas-le-nazi-01-12-2018-2275817_2.php",
+            "lead": "Traiter ses adversaires politiques de nazis est si fréquent qu'une typologie s'impose, depuis les vrais nazis jusqu'à ceux qui le prétendent sans en savoir quoi que ce soit.",
+            "comments": {
+              "number": 5
+            },
+            "image": {
+              "imgPath": "17637540LPW_17637558_Une___660x287.jpg",
+              "alt": "Parade des SS a Nuremberg dans les annees 30.  (C)Ann Ronan Picture Library",
+              "width": 660,
+              "height": 287,
+              "legend": "",
+              "icon": "play"
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Michel Richard -&nbsp;La (petite) leçon de Pierre de Villiers à Emmanuel Macron",
+            "author": "Michel Richard",
+            "isPremium": true,
+            "contentPath": "/editos-du-point/michel-richard/michel-richard-la-petite-lecon-de-pierre-de-villiers-a-emmanuel-macron-02-12-2018-2275869_54.php",
+            "lead": "Dans son nouveau livre, l'ex-chef&nbsp;d'état-major des armées envoie un message, certes codé, au président de la République sur les bases d'une saine autorité.",
+            "comments": {
+              "number": 16
+            },
+            "image": {
+              "imgPath": "17644815lpw-17647371-sommaire-villiers-macron-jpg_5773169_200x133.jpg",
+              "alt": "Emmanuel Macron et le general de Villiers, le 14 juillet 2017.  (C)ALAIN JOCARD\"",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Michel Richard - Macron, le peuple et la foule",
+                "contentPath": "/editos-du-point/michel-richard/michel-richard-macron-le-peuple-et-la-foule-25-11-2018-2274232_54.php",
+                "isPremium": true
+              },
+              {
+                "title": "Macron sur TF1 : Jupiter descend d'une marche",
+                "contentPath": "/politique/macron-sur-tf1-jupiter-descend-d-une-marche-15-11-2018-2271545_20.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Mort de Bush&nbsp;: Trump va envoyer son avion présidentiel chercher son cercueil",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/monde/mort-de-bush-trump-va-envoyer-son-avion-presidentiel-chercher-son-cercueil-01-12-2018-2275843_24.php",
+            "lead": "Dans le «&nbsp;JDD&nbsp;», un collectif se disant Gilets jaunes libres condamne les violences liées au mouvement et souhaite être reçu par le Premier ministre.",
+            "comments": {
+              "number": 2
+            },
+            "image": {
+              "imgPath": "17647943lpw-17647958-sommaire-jpg_5773043_200x133.jpg",
+              "alt": "George H. W. Bush est décédé vendredi à l'âge de 94 ans à Houston au Texas.&nbsp;  ©RON SACHS",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Euro-2020&nbsp;: la France hérite d'un groupe abordable",
+            "author": "Michel Colomès",
+            "isPremium": false,
+            "contentPath": "/monde/george-herbert-walker-bush-le-president-diplomate-01-12-2018-2275719_24.php",
+            "lead": "Le 41e président des États-Unis est décédé le&nbsp;30&nbsp;novembre 2018. Il a passionnément aimé les affaires étrangères, où il excellait. Un goût qui lui coûta sa réélection.",
+            "comments": {
+              "number": 11
+            },
+            "image": {
+              "imgPath": "1869750lp-1869751-sommaire-jpg_5772204_200x133.jpg",
+              "alt": "1991 : George H. W. Bush, en visite officielle au Kremlin, signe avec son homologue sovietique Mikhail Gorbatchev le traite de reduction des armes strategiques. (C)Vladimir Vyatkin",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "folder"
+            },
+            "related": [
+              {
+                "title": "États-Unis&nbsp;: l'ancien président américain George H. W. Bush est mort",
+                "contentPath": "/monde/etats-unis-l-ancien-president-americain-george-h-w-bush-est-mort-01-12-2018-2275716_24.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Ukraine&nbsp;: pour Poutine «&nbsp;la guerre va continuer&nbsp;»",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/monde/ukraine-pour-poutine-la-guerre-va-continuer-01-12-2018-2275839_24.php",
+            "lead": "Lors du sommet du G20,&nbsp;Vladimir Poutine a déclaré que tant que les autorités ukrainiennes actuelles «&nbsp;resteront au pouvoir&nbsp;», la paix n'était pas près d'arriver.",
+            "comments": {
+              "number": 6
+            },
+            "image": {
+              "imgPath": "17647883lpw-17647941-sommaire-jpg_5773051_200x133.jpg",
+              "alt": "Le president russe a ete interroge sur le brusque regain de tension entre son pays et l&#39;Ukraine.  (C)ALEXEI DRUZHININ",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "LifeStyle",
+        "title": "lifestyle",
+        "list": [
+          {
+            "title": "montres",
+            "list": [
+              {
+                "type": "item",
+                "title": "Une Range Rover Evoque au poignet",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/montres/une-range-rover-evoque-au-poignet-02-12-2018-2275909_2648.php",
+                "lead": "",
+                "comments": {
+                  "number": 0
+                },
+                "image": {
+                  "imgPath": "17637540LPW_17637558_Une___660x287.jpg",
+                  "alt": "",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              },
+              {
+                "type": "item",
+                "title": "Hiroshi Fujiwara, entre streetwear japonais et TAG Heuer Carrera",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/montres/hiroshi-fujiwara-entre-streetwear-japonais-et-tag-heuer-carrera-01-12-2018-2275768_2648.php",
+                "lead": "",
+                "comments": {
+                  "number": 0
+                },
+                "image": {
+                  "imgPath": "17647041lpmw-17647044-sommaire-jpg_5772112_290x217.jpg",
+                  "alt": "",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              },
+              {
+                "type": "item",
+                "title": "Foot&nbsp;: il offre une Rolex à tous ses coéquipiers&nbsp;!",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/montres/rolex/foot-il-offre-une-rolex-a-tous-ses-coequipiers-30-11-2018-2275544_2839.php",
+                "lead": "",
+                "comments": {
+                  "number": 0
+                },
+                "image": {
+                  "imgPath": "17641980lpw-17641988-sommaire-jpg_5769768_290x217.jpg",
+                  "alt": "",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              }
+            ]
+          },
+          {
+            "label": "automobile"
+          },
+          {
+            "label": "mode"
+          },
+          {
+            "label": "tourisme"
+          },
+          {
+            "label": "parfum"
+          },
+          {
+            "label": "vin"
+          },
+          {
+            "label": "gastronomie"
+          }
+        ],
+        "link": "Voir tous les articles mode"
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full-mini",
+            "title": "«&nbsp;Les Terriens du samedi&nbsp;!&nbsp;»&nbsp;: la drôle d'interview de Drucker face à Ardisson",
+            "author": "Le Point.fr",
+            "isPremium": false,
+            "contentPath": "/medias/les-terriens-du-samedi-la-drole-d-interview-de-drucker-face-a-ardisson-01-12-2018-2275814_260.php",
+            "lead": "VIDÉO. L'animateur de «&nbsp;Vivement dimanche&nbsp;» est l'invité de Thierry Ardisson sur C8 ce 1er&nbsp;décembre pour une interview «&nbsp;post mortem&nbsp;» d'enfer.",
+            "comments": {
+              "number": 1
+            },
+            "image": {
+              "imgPath": "17647152lpw-17647157-sommaire-druckeremission-jpg_5772539_200x133.jpg",
+              "alt": "Age de 76 ans, Michel Drucker fait preuve d&#39;une longevite presque hors norme a la television.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "folder"
+            },
+            "related": [
+              {
+                "title": "La confortable fortune de Michel Drucker dévoilée",
+                "contentPath": "/people/la-confortable-fortune-de-michel-drucker-devoilee-18-07-2018-2237383_2116.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Stanislas Guerini, nouveau délégué général de La République en marche",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/politique/stanislas-guerini-nouveau-delegue-general-de-la-republique-en-marche-01-12-2018-2275779_20.php",
+            "lead": "Député de la 3e circonscription de Paris, ce député est un proche d'Emmanuel Macron. Il avait participé à la création d'En marche&nbsp;!.",
+            "comments": {
+              "number": 16
+            },
+            "image": {
+              "imgPath": "17647167lpw-17647175-sommaire-lrem-politique-stanislas-guerini-jpg_5772278_200x133.jpg",
+              "alt": "Stanislas Guerini remplace Christophe Castaner, parti au ministère de l'Intérieur.",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Qui pour prendre la tête des députés LREM ?",
+                "contentPath": "/politique/qui-pour-prendre-la-tete-des-deputes-lrem-17-09-2018-2252001_20.php",
+                "isPremium": false
+              },
+              {
+                "title": "Présidence LREM : Pierre Person jette l'éponge",
+                "contentPath": "/politique/presidence-lrem-pierre-person-jette-l-eponge-13-11-2018-2271135_20.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Acheter ses jouets de Noël au dernier moment, une très mauvaise idée",
+            "author": "Thibaut Déléaz",
+            "isPremium": false,
+            "contentPath": "/economie/acheter-ses-jouets-de-noel-au-dernier-moment-une-tres-mauvaise-idee-01-12-2018-2275742_28.php",
+            "lead": "Les prix indiqués par les catalogues de Noël des grandes enseignes prennent souvent fin bien avant Noël. Et plus la fête approche, plus ils s'envolent.",
+            "comments": {
+              "number": 2
+            },
+            "image": {
+              "imgPath": "17643751lpw-17643873-sommaire-noel-jpg_5771792_200x133.jpg",
+              "alt": "La course aux achats de jouets a déjà commencé !  ©KENZO TRIBOUILLARD",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": "folder"
+            },
+            "related": [
+              {
+                "title": "Noël: le business des calendriers de l'Avent",
+                "contentPath": "/economie/noel-le-business-des-calendriers-de-l-avent-29-11-2018-2275390_28.php",
+                "isPremium": false
+              },
+              {
+                "title": "Les meilleurs calendriers de l’Avent...&nbsp;pour patienter jusqu’à Noël",
+                "contentPath": "/art-de-vivre/les-meilleurs-calendriers-de-l-avent-pour-patienter-jusqu-a-noel-25-11-2018-2274229_4.php",
+                "isPremium": false
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Gilets jaunes&nbsp;: à Paris, «&nbsp;ça sent la révolution&nbsp;»",
+            "author": "Le Point.fr",
+            "isPremium": false,
+            "contentPath": "/monde/la-police-prend-sa-barbe-a-papa-pour-de-la-drogue-trois-mois-de-prison-01-12-2018-2275824_24.php",
+            "lead": "VIDÉOS. Samedi, alors que les Gilets jaunes manifestaient dans les rues de la capitale, de nombreuses scènes de guérilla urbaine se sont déroulées en périphérie.",
+            "comments": {
+              "number": 116
+            },
+            "image": {
+              "imgPath": "17647536lpw-17648027-mega-une-jpg_5773465_320x139.jpg",
+              "alt": "De nombreux degats ont eu lieu a Paris ce samedi.  (C)GEOFFROY VAN DER HASSELT",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "Pop",
+        "list": [
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Cronenberg&nbsp;: «&nbsp;J'ai embauché Howard Shore parce qu'il n'était pas cher&nbsp;»</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/cinema/cronenberg-j-ai-embauche-howard-shore-parce-qu-il-n-etait-pas-cher-30-11-2018-2275489_2923.php",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17638225lpw-17638307-sommaire-jpg_5769115_293x195.jpg",
+              "alt": "David Cronenberg et Howard Shore à l'ambassade du Canada où ils ont tous les deux été honorés.",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Découvrez le 1er épisode de Dragons, avec George R. R. Martin et John Howe</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/series/decouvrez-le-1er-episode-de-dragons-avec-george-r-r-martin-et-john-howe-30-11-2018-2275521_2957.php",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17641675lpw-17641798-sommaire-jpg_5769466_293x195.jpg",
+              "alt": "",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Salon du livre de Montreuil&nbsp;: nos pépites jeunesse à nous</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/livres/salon-du-livre-de-montreuil-nos-pepites-jeunesse-a-nous-30-11-2018-2275614_2945.php",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17641980lpw-17641988-sommaire-jpg_5769768_290x217.jpg",
+              "alt": "",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Comment la pop star virtuelle Hatsune Miku a conquis le monde</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/musique/comment-la-pop-star-virtuelle-hatsune-miku-a-conquis-le-monde-30-11-2018-2275585_2946.php",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17641743lpw-17641883-sommaire-jpg_5772147_293x195.jpg",
+              "alt": "",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Netflix abandonne sa série Marvel Daredevil</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/series/netflix-abandonne-sa-serie-marvel-daredevil-30-11-2018-2275535_2957.php\"",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17641981lpw-17642022-sommaire-jpg_5769694_293x195.jpg",
+              "alt": "",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "item",
+            "title": "<h2 class=\"font-white\">Avec Deutsch-les-Landes, Amazon se trompe royalement de cible</h2>",
+            "author": "",
+            "isPremium": false,
+            "contentPath": "/pop-culture/series/avec-deutsch-les-landes-amazon-se-trompe-royalement-de-cible-29-11-2018-2275386_2957.php",
+            "lead": "",
+            "comments": {
+              "number": 0
+            },
+            "image": {
+              "imgPath": "17637925lpw-17638309-sommaire-jpg_5767941_293x195.jpg",
+              "alt": "",
+              "width": 293,
+              "height": 195,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          }
+        ]
+      },
+      {
+        "type": "ArticleGroup",
+        "list": [
+          {
+            "type": "full-mini",
+            "title": "Brexodus, comment les Français quittent Londres",
+            "author": "Émilie Lanez",
+            "isPremium": true,
+            "contentPath": "/europe/brexodus-comment-les-francais-quittent-londres-01-12-2018-2275788_2626.php",
+            "lead": "Les Français quittent-ils Londres&nbsp;? Les Anglais anti-Brexit cherchent-ils asile à Paris&nbsp;? Les deux capitales jouent une partie de poker menteur.",
+            "comments": {
+              "number": 13
+            },
+            "image": {
+              "imgPath": "17642190lpw-17647270-sommaire-brexit-jpg_5772337_200x133.jpg",
+              "alt": "&amp;lt;&amp;lt; Tous nos amis sont partis ! Ne devrions-nous pas, nous aussi, fuir la misere ? &amp;gt;&amp;gt;  (C)Tartrais Erik",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Deux ans en enfer&nbsp;: histoire secrète du Brexit",
+                "contentPath": "/monde/deux-ans-en-enfer-histoire-secrete-du-brexit-29-11-2018-2275272_24.php\"",
+                "isPremium": true
+              },
+              {
+                "title": "Paris veut rafler une partie du marché de l’or londonien",
+                "contentPath": "/economie/paris-veut-rafler-une-partie-du-marche-de-l-or-londonien-13-11-2018-2271023_28.php",
+                "isPremium": true
+              },
+              {
+                "title": "Quels seront vos droits après le Brexit ?",
+                "contentPath": "/politique/emmanuel-berretta/quels-seront-vos-droits-apres-le-brexit-21-11-2018-2273243_1897.php",
+                "isPremium": true
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Brexit&nbsp;: les secrets d'un bras de fer historique",
+            "author": "",
+            "isPremium": true,
+            "contentPath": "/monde/brexit-les-secrets-d-un-bras-de-fer-historique-01-12-2018-2275739_24.php",
+            "lead": "ÉPISODE 4/4. Il a fallu des mois de négociations pour que l'Union européenne et le Royaume-Uni parviennent à un divorce. Le récit des dernières tractations.",
+            "comments": {
+              "number": 1
+            },
+            "image": {
+              "imgPath": "17631504lpw-17631703-sommaire-jpg_5771832_200x133.jpg",
+              "alt": "©Elodie Gregoire",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "Brexit&nbsp;: les secrets d’un bras de fer historique (2/4)",
+                "contentPath": "/monde/brexit-les-secrets-d-un-bras-de-fer-historique-29-11-2018-2275270_24.php",
+                "isPremium": true
+              },
+              {
+                "title": "Brexit&nbsp;: les secrets d’un bras de fer historique (1/4)",
+                "contentPath": "/monde/brexit-les-secrets-d-un-bras-de-fer-historique-episode-1--28-11-2018-2275148_24.php",
+                "isPremium": true
+              },
+              {
+                "title": "Brexit&nbsp;: les secrets d’un bras de fer historique (3/4)",
+                "contentPath": "/monde/brexit-les-secrets-d-un-bras-de-fer-historique-30-11-2018-2275483_24.php",
+                "isPremium": true
+              }
+            ]
+          },
+          {
+            "type": "full-mini",
+            "title": "Argentine&nbsp;: derrière les fastes du G20, la crise économique",
+            "author": "Anaïs Dubois",
+            "isPremium": false,
+            "contentPath": "/monde/argentine-derriere-les-fastes-du-g20-la-crise-economique-01-12-2018-2275767_24.php",
+            "lead": "Le gouvernement argentin et le président, Mauricio Macri, veulent faire bonne figure alors que le pays connaît une inflation et un chômage record.",
+            "comments": {
+              "number": 25
+            },
+            "image": {
+              "imgPath": "17644824lpw-17647009-sommaire-g20-argentine-jpg_5772120_200x133.jpg",
+              "alt": "Les membres du G20 sont reunis a Buenos Aires.  (C)Mikhael Klimentyev",
+              "width": 200,
+              "height": 133,
+              "legend": "",
+              "icon": ""
+            },
+            "related": [
+              {
+                "title": "G20: Trump fait faux bond à Poutine et fait monter la tension",
+                "contentPath": "/monde/g20-trump-fait-faux-bond-poutine-et-fait-monter-la-tension-30-11-2018-2275564_24.php",
+                "isPremium": false
+              },
+              {
+                "title": "Luc de Barochez - Buenos Aires : élégie pour le G20",
+                "contentPath": "/monde/luc-de-barochez-buenos-aires-elegie-pour-le-g20--30-11-2018-2275458_24.php",
+                "isPremium": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Abonnes",
+        "title": "édition abonnés",
+        "list": [
+          {
+            "type": "full",
+            "title": "Brexodus, comment les Français quittent Londres",
+            "author": "Émilie Lanez",
+            "isPremium": true,
+            "contentPath": "/europe/brexodus-comment-les-francais-quittent-londres-01-12-2018-2275788_2626.php",
+            "lead": "Les Français quittent-ils Londres&nbsp;? Les Anglais anti-Brexit cherchent-ils asile à Paris&nbsp;? Les deux capitales jouent une partie de poker menteur.",
+            "image": {
+              "imgPath": "17642190lpw-17647270-mega-une-brexit-jpg_5772338_600x261.jpg",
+              "alt": "&amp;lt;&amp;lt; Tous nos amis sont partis ! Ne devrions-nous pas, nous aussi, fuir la misere ? &amp;gt;&amp;gt;  (C)Tartrais Erik",
+              "width": 600,
+              "height": 261,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "L'habit ne fait pas le nazi",
+            "author": "",
+            "isPremium": true,
+            "contentPath": "/debats/l-habit-ne-fait-pas-le-nazi-01-12-2018-2275817_2.php",
+            "lead": "Traiter ses adversaires politiques de nazis est si fréquent qu'une typologie s'impose, depuis les vrais nazis jusqu'à ceux qui le prétendent sans en savoir quoi que ce soit.",
+            "image": {
+              "imgPath": "17637540lpw-17637558-sommaire-jpg_5772599_290x217.jpg",
+              "alt": "Parade des SS a Nuremberg dans les annees 30.  (C)Ann Ronan Picture Library",
+              "width": 290,
+              "height": 217,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "Postillon",
+            "title": "Droite, y a-t-il une vie après Jean d’Ormesson&nbsp;?",
+            "author": "Saïd Mahrane",
+            "isPremium": true,
+            "contentPath": "/editos-du-point/sebastien-le-fol/droite-y-a-t-il-une-vie-apres-jean-d-ormesson-01-12-2018-2275737_1913.php",
+            "lead": "Deux essais fustigent une droite devenue plus idéologique que littéraire. Quels écrivains peuvent aujourd’hui reprendre le flambeau&nbsp;?",
+            "image": {
+              "imgPath": "",
+              "alt": "",
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "Neumann - Gilets jaunes : il n'y a pas que l'économie dans la vie !",
+            "author": "Laurent Neumann",
+            "isPremium": true,
+            "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+            "lead": "Alors que le mouvement semble s'inscrire dans la durée, l'exécutif paraît à court d'idées pour calmer la grogne. Et s'il faisait de la politique&nbsp;?",
+            "image": {
+              "imgPath": "17643033lpw-17643118-sommaire-macron-philippe-jpg_5773336_290x217.jpg",
+              "alt": "Emmanuel Macron et Edouard Philippe semblent a court de reponses contre la colere des Gilets jaunes.  (C)LUDOVIC MARIN",
+              "width": 290,
+              "height": 217,
+              "legend": "",
+              "icon": ""
+            },
+            "related": []
+          },
+          {
+            "type": "full-mini",
+            "title": "FOG - Mais comment en sommes-nous arrivés là&nbsp;?",
+            "author": "",
+            "isPremium": true,
+            "contentPath": "/editos-du-point/franz-olivier-giesbert/fog-mais-comment-en-sommes-nous-arrives-la-30-11-2018-2275480_70.php",
+            "lead": "Il faut lire ces lanceurs d'alerte que sont Jean-Claude Michéa et Christophe Guilluy, observe l'éditorialiste, pour comprendre la colère des Gilets jaunes.",
+            "comments": {
+              "number": 149
+            },
+            "image": {
+              "imgPath": "17444053lpw-17444051-mega-une-jpg_5693509_320x139.jpg",
+              "alt": "",
+              "width": 320,
+              "height": 139,
+              "legend": "",
+              "icon": ""
+            }
+          },
+          {
+            "type": "Debats",
+            "title": "débats",
+            "list": [
+              {
+                "type": "mini",
+                "title": "Michel Richard -&nbsp;La (petite) leçon de Pierre de Villiers à Emmanuel Macron",
+                "author": "Michel Richard",
+                "isPremium": true,
+                "contentPath": "/editos-du-point/michel-richard/michel-richard-la-petite-lecon-de-pierre-de-villiers-a-emmanuel-macron-02-12-2018-2275869_54.php",
+                "lead": "Dans son nouveau livre, l'ex-chef&nbsp;d'état-major des armées envoie un message, certes codé, au président de la République sur les bases d'une saine autorité.",
+                "comments": {
+                  "number": 16
+                },
+                "image": {
+                  "imgPath": "17644815lpw-17647371-sommaire-villiers-macron-jpg_5773169_200x133.jpg",
+                  "alt": "Emmanuel Macron et le general de Villiers, le 14 juillet 2017.  (C)ALAIN JOCARD\"",
+                  "width": 200,
+                  "height": 133,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": [
+                  {
+                    "title": "Michel Richard - Macron, le peuple et la foule",
+                    "contentPath": "/editos-du-point/michel-richard/michel-richard-macron-le-peuple-et-la-foule-25-11-2018-2274232_54.php",
+                    "isPremium": true
+                  },
+                  {
+                    "title": "Macron sur TF1 : Jupiter descend d'une marche",
+                    "contentPath": "/politique/macron-sur-tf1-jupiter-descend-d-une-marche-15-11-2018-2271545_20.php",
+                    "isPremium": false
+                  }
+                ]
+              },
+              {
+                "type": "mini",
+                "title": "L'habit ne fait pas le nazi",
+                "author": "",
+                "isPremium": true,
+                "contentPath": "/debats/l-habit-ne-fait-pas-le-nazi-01-12-2018-2275817_2.php",
+                "lead": "Traiter ses adversaires politiques de nazis est si fréquent qu'une typologie s'impose, depuis les vrais nazis jusqu'à ceux qui le prétendent sans en savoir quoi que ce soit.",
+                "image": {
+                  "imgPath": "17637540lpw-17637558-sommaire-jpg_5772599_290x217.jpg",
+                  "alt": "Parade des SS a Nuremberg dans les annees 30.  (C)Ann Ronan Picture Library",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              },
+              {
+                "type": "mini",
+                "title": "Neumann - Gilets jaunes : il n'y a pas que l'économie dans la vie !",
+                "author": "Laurent Neumann",
+                "isPremium": true,
+                "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                "lead": "Alors que le mouvement semble s'inscrire dans la durée, l'exécutif paraît à court d'idées pour calmer la grogne. Et s'il faisait de la politique&nbsp;?",
+                "image": {
+                  "imgPath": "17643033lpw-17643118-sommaire-macron-philippe-jpg_5773336_290x217.jpg",
+                  "alt": "Emmanuel Macron et Edouard Philippe semblent a court de reponses contre la colere des Gilets jaunes.  (C)LUDOVIC MARIN",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              }
+            ]
+          },
+          {
+            "type": "TopAbonnes",
+            "title": "top des abonnés",
+            "list": [
+              {
+                "type": "mini",
+                "title": "Artus -&nbsp;L'avenir va être très dur pour les Français",
+                "author": "",
+                "isPremium": true,
+                "contentPath": "/invites-du-point/patrick-artus/artus-l-avenir-va-etre-tres-dur-pour-les-francais-27-11-2018-2274708_1448.php",
+                "lead": "",
+                "image": {
+                  "imgPath": "17620001lpw-17625909-sommaire-jpg_5767108_320x213.jpg",
+                  "alt": "Artus -&nbsp;L'avenir va être très dur pour les Français",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              },
+              {
+                "type": "mini",
+                "title": "Retraite des veufs et des veuves&nbsp;: attention, danger",
+                "author": "",
+                "isPremium": true,
+                "contentPath": "/economie/retraite-epargne/retraite-des-veufs-et-veuves-attention-danger-27-11-2018-2274744_2440.php",
+                "lead": "",
+                "image": {
+                  "imgPath": "17624876lpw-17626475-sommaire-retraites-reversion-jpg_5765808_320x213.jpg",
+                  "alt": "Retraite des veufs et des veuves&nbsp;: attention, danger",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              },
+              {
+                "type": "mini",
+                "title": "Ce qui préoccupe les services de renseignements",
+                "author": "",
+                "isPremium": true,
+                "contentPath": "/politique/ce-qui-preoccupe-les-services-de-renseignement-28-11-2018-2275061_20.php",
+                "lead": "",
+                "image": {
+                  "imgPath": "17631716lpw-17631702-sommaire-jpg_5766377_320x213.jpg",
+                  "alt": "Ce qui préoccupe les services de renseignements",
+                  "width": 290,
+                  "height": 217,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": []
+              }
+            ]
+          }
+        ],
+        "link": "Enquêtes, analyses, reportages... Découvrez la richesse de l'édition abonnés"
+      },
+      {
+        "type": "LinksGroup",
+        "list": [
+          {
+            "type": "LinksList",
+            "title": "les plus lus",
+            "list": [
+              {
+                "type": "full-mini",
+                "title": "Gilets jaunes&nbsp;: après le chaos, Macron convoque une réunion de crise",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/societe/gilets-jaunes-devant-le-chaos-l-elysee-en-situation-de-crise-02-12-2018-2275861_23.php",
+                "lead": "Arrivé à Paris en fin de matinée, Emmanuel Macron réunit Édouard Philippe et Christophe Castaner afin de trouver une réponse à un mouvement qui semble incontrôlable.",
+                "comments": {
+                  "number": 161
+                },
+                "image": {
+                  "imgPath": "17649594lpw-17649610-sommaire-gilets-jaunes-emmanuel-macron-jpg_5773759_200x133.jpg",
+                  "alt": "Emmanuel Macron a condamne samedi depuis Buenos Aires les violences observees a Paris pendant la manifestation",
+                  "width": 200,
+                  "height": 133,
+                  "legend": "",
+                  "icon": "play"
+                },
+                "related": [
+                  {
+                    "title": "Neumann - Gilets jaunes&nbsp;: il n'y a pas que l'économie dans la vie&nbsp;!",
+                    "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                    "isPremium": true
+                  },
+                  {
+                    "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                    "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                    "isPremium": false
+                  }
+                ]
+              },
+              {
+                "type": "full-mini",
+                "title": "Pulvar&nbsp;: «&nbsp;C'est l'attentisme du gouvernement qui a provoqué la crise des Gilets jaunes&nbsp;»",
+                "author": "Olivier Pérou",
+                "contentPath": "/politique/pulvar-sur-la-transition-ecologique-macron-est-coince-dans-l-ancien-monde-01-12-2018-2275730_20.php",
+                "lead": "VIDÉO. Emmanuel Macron, fiscalité, transition écologique... L'ancienne journaliste, devenue présidente de la Fondation pour la nature et l'homme, se confie.",
+                "comments": {
+                  "number": 124
+                },
+                "image": {
+                  "imgPath": "17643678lpw-17643922-sommaire-macron-ppe-hulot-pulvar-jpg_5773311_200x133.jpg",
+                  "alt": "L&#39;ancienne journaliste Audrey Pulvar desormais a la tete de la Fondation pour la nature et l&#39;homme (FNH)  (C)CHARLY TRIBALLEAU",
+                  "width": 200,
+                  "height": 133,
+                  "legend": "",
+                  "icon": "play"
+                },
+                "related": [
+                  {
+                    "type": "related",
+                    "title": "Débat - La colère des Gilets jaunes est-elle illégitime&nbsp;?",
+                    "contentPath": "/politique/debat-la-colere-des-gilets-jaunes-est-elle-illegitime-16-11-2018-2271856_20.php",
+                    "isPremium": false
+                  },
+                  {
+                    "type": "related",
+                    "title": "TRIBUNE. Réinventons le dialogue autour de la transition écologique&nbsp;!",
+                    "contentPath": "/politique/tribune-reinventons-le-dialogue-autour-de-la-transition-ecologique-25-11-2018-2274228_20.php",
+                    "isPremium": false
+                  },
+                  {
+                    "type": "related",
+                    "title": "Nicolas Hulot coupe les ponts avec Emmanuel Macron",
+                    "contentPath": "/politique/nicolas-hulot-coupe-les-ponts-avec-emmanuel-macron-23-11-2018-2273749_20.php",
+                    "isPremium": false
+                  }
+                ]
+              },
+              {
+                "type": "half",
+                "title": "Gilets jaunes&nbsp;: à Paris, «&nbsp;ça sent la révolution&nbsp;»",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/societe/gilets-jaunes-a-paris-ca-sent-la-revolution-01-12-2018-2275815_23.php",
+                "lead": "VIDÉOS. Samedi, alors que les Gilets jaunes manifestaient dans les rues de la capitale, de nombreuses scènes de guérilla urbaine se sont déroulées en périphérie.",
+                "comments": {
+                  "number": 116
+                },
+                "image": {
+                  "imgPath": "17647536lpw-17648027-mega-une-jpg_5773465_320x139.jpg",
+                  "alt": "De nombreux degats ont eu lieu a Paris ce samedi.  (C)GEOFFROY VAN DER HASSELT",
+                  "width": 320,
+                  "height": 139,
+                  "legend": "",
+                  "icon": "play"
+                }
+              },
+              {
+                "type": "full-mini",
+                "title": "Argentine&nbsp;: derrière les fastes du G20, la crise économique",
+                "author": "Anaïs Dubois",
+                "isPremium": false,
+                "contentPath": "/monde/argentine-derriere-les-fastes-du-g20-la-crise-economique-01-12-2018-2275767_24.php",
+                "lead": "Le gouvernement argentin et le président, Mauricio Macri, veulent faire bonne figure alors que le pays connaît une inflation et un chômage record.",
+                "comments": {
+                  "number": 25
+                },
+                "image": {
+                  "imgPath": "17644824lpw-17647009-sommaire-g20-argentine-jpg_5772120_200x133.jpg",
+                  "alt": "Les membres du G20 sont reunis a Buenos Aires.  (C)Mikhael Klimentyev",
+                  "width": 200,
+                  "height": 133,
+                  "legend": "",
+                  "icon": ""
+                },
+                "related": [
+                  {
+                    "title": "G20: Trump fait faux bond à Poutine et fait monter la tension",
+                    "contentPath": "/monde/g20-trump-fait-faux-bond-poutine-et-fait-monter-la-tension-30-11-2018-2275564_24.php",
+                    "isPremium": false
+                  },
+                  {
+                    "title": "Luc de Barochez - Buenos Aires : élégie pour le G20",
+                    "contentPath": "/monde/luc-de-barochez-buenos-aires-elegie-pour-le-g20--30-11-2018-2275458_24.php",
+                    "isPremium": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "LinksList",
+            "title": "les plus partagés",
+            "list": [
+              {
+                "type": "half",
+                "title": "Gilets jaunes&nbsp;: à Paris, «&nbsp;ça sent la révolution&nbsp;»",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/societe/gilets-jaunes-a-paris-ca-sent-la-revolution-01-12-2018-2275815_23.php",
+                "lead": "VIDÉOS. Samedi, alors que les Gilets jaunes manifestaient dans les rues de la capitale, de nombreuses scènes de guérilla urbaine se sont déroulées en périphérie.",
+                "comments": {
+                  "number": 116
+                },
+                "image": {
+                  "imgPath": "17647536lpw-17648027-mega-une-jpg_5773465_320x139.jpg",
+                  "alt": "De nombreux degats ont eu lieu a Paris ce samedi.  (C)GEOFFROY VAN DER HASSELT",
+                  "width": 320,
+                  "height": 139,
+                  "legend": "",
+                  "icon": "play"
+                }
+              },
+              {
+                "type": "full-mini",
+                "title": "Gilets jaunes&nbsp;: après le chaos, Macron convoque une réunion de crise",
+                "author": "",
+                "isPremium": false,
+                "contentPath": "/societe/gilets-jaunes-devant-le-chaos-l-elysee-en-situation-de-crise-02-12-2018-2275861_23.php",
+                "lead": "Arrivé à Paris en fin de matinée, Emmanuel Macron réunit Édouard Philippe et Christophe Castaner afin de trouver une réponse à un mouvement qui semble incontrôlable.",
+                "comments": {
+                  "number": 161
+                },
+                "image": {
+                  "imgPath": "17649594lpw-17649610-sommaire-gilets-jaunes-emmanuel-macron-jpg_5773759_200x133.jpg",
+                  "alt": "Emmanuel Macron a condamne samedi depuis Buenos Aires les violences observees a Paris pendant la manifestation",
+                  "width": 200,
+                  "height": 133,
+                  "legend": "",
+                  "icon": "play"
+                },
+                "related": [
+                  {
+                    "title": "Neumann - Gilets jaunes&nbsp;: il n'y a pas que l'économie dans la vie&nbsp;!",
+                    "contentPath": "/invites-du-point/laurent-neumann/neumann-gilets-jaunes-il-n-y-a-pas-que-l-economie-dans-la-vie-01-12-2018-2275750_2449.php",
+                    "isPremium": true
+                  },
+                  {
+                    "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                    "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                    "isPremium": false
+                  }
+                ]
+              },
+              {
+                "title": "Cotta - Gilets jaunes&nbsp;: le feuilleton interminable",
+                "contentPath": "/invites-du-point/michele-cotta/cotta-gilets-jaunes-le-feuilleton-interminable-01-12-2018-2275731_1595.php",
+                "isPremium": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "aside": []
+  },
+  "footer-dark": {
+    "list": [
+      {
+        "type": "mini",
+        "title": "C'est arrivé le  2 décembre",
+        "author": "",
+        "isPremium": false,
+        "contentPath": "/c-est-arrive-aujourd-hui/2-decembre-1805-tombe-a-austerlitz-le-colonel-morland-est-embaume-sur-ordre-de-napoleon-recette-01-12-2012-1536579_494.php",
+        "lead": "2 décembre 1805. Le jour où le colonel Morland meurt à Austerlitz avant d'être embaumé",
+        "comments": {
+          "number": 0
+        },
+        "image": {
+          "imgPath": "2319314lp-2319315-mega-une-jpg_5773006_320x213.jpg",
+          "alt": "",
+          "width": 320,
+          "height": 213,
+          "legend": "",
+          "icon": ""
+        }
+      },
+      {
+        "type": "mini",
+        "title": "Notre dossier",
+        "author": "",
+        "isPremium": false,
+        "contentPath": "/dossiers/societe/velo-libre-service-velib/",
+        "lead": "Se déplacer en ville",
+        "comments": {
+          "number": 0
+        },
+        "image": {
+          "imgPath": "velo-libre-service-velib_5293636_320x213.jpg",
+          "alt": "",
+          "width": 320,
+          "height": 213,
+          "legend": "",
+          "icon": ""
+        }
+      },
+      {
+        "type": "mini",
+        "title": "À ne pas manquer",
+        "author": "",
+        "isPremium": false,
+        "contentPath": "/societe/gilets-jaunes-devant-le-chaos-l-elysee-en-situation-de-crise-02-12-2018-2275861_23.php",
+        "lead": "Gilets jaunes : apres le chaos, Macron convoque une reunion de crise",
+        "comments": {
+          "number": 0
+        },
+        "image": {
+          "imgPath": "17649594lpw-17649610-sommaire-gilets-jaunes-emmanuel-macron-jpg_5773759_320x213.jpg",
+          "alt": "Gilets jaunes : apres le chaos, Macron convoque une reunion de crise",
+          "width": 320,
+          "height": 213,
+          "legend": "",
+          "icon": ""
+        }
+      }
+    ]
+  },
+  "footer": {
+    "type": "links",
+    "list": [
+      {
+        "type": "linkslist",
+        "title": "le point | actualités",
+        "text": "Consultez les articles de la rubrique <strong> actualité</strong>,<br>suivez les informations en temps réel et accédez à nos analyses de l’actualité.",
+        "list": [
+          {
+            "title": "Se déplacer en ville",
+            "contentPath": "https://www.lepoint.fr/dossiers/societe/velo-libre-service-velib/"
+          },
+          {
+            "title": "Voitures hybrides &amp; électriques",
+            "contentPath": "https://www.lepoint.fr/dossiers/automobile/voitures-hybrides-electriques/"
+          },
+          {
+            "title": "Élections de mi-mandat : l’Amérique juge Trump",
+            "contentPath": "https://www.lepoint.fr/dossiers/monde/midterms-2018-elections-mi-mandat-etats-unis/"
+          },
+          {
+            "title": "Index des personnalité",
+            "contentPath": "https://www.lepoint.fr/themes/personne"
+          },
+          {
+            "title": "Index des journalistes du Point",
+            "contentPath": "https://www.lepoint.fr/journalistes-du-point/"
+          },
+          {
+            "title": "Le Point pour les déficients visuels",
+            "contentPath": "https://www.lepoint.fr/html/conditions/vocale_presse.jsp"
+          }
+        ]
+      },
+      {
+        "type": "linkslist",
+        "title": "Magazine",
+        "list": [
+          {
+            "title": "La boutique",
+            "contentPath": "https://boutique.lepoint.fr/"
+          },
+          {
+            "title": "Abonnements",
+            "contentPath": "https://lepoint.commander1.com/c3/?tcs=2217&amp;chn=autopromo&amp;src=LePointfr&amp;cmp=Fil_rouge&amp;med=Lien_footer&amp;pub=&amp;crtive=&amp;vson=&amp;fmt=&amp;adgrp=&amp;sem_kw=&amp;aff_id=&amp;aff_name=&amp;url=https://abo.lepoint.fr/"
+          },
+          {
+            "title": "Applications mobiles",
+            "contentPath": "https://www.lepoint.fr/html/applications/"
+          },
+          {
+            "title": "Nos partenaires",
+            "contentPath": "https://www.lepoint.fr/html/partenaires/"
+          },
+          {
+            "title": "Nous sommes OJD",
+            "contentPath": "http://www.ojd-internet.com/chiffres/5701-lepoint.fr?adhid=4817"
+          }
+        ]
+      },
+      {
+        "type": "linkslist",
+        "title": "Liens utiles",
+        "list": [
+          {
+            "title": "FAQ",
+            "contentPath": "https://www.lepoint.fr/html/faq/"
+          },
+          {
+            "title": "Publicité",
+            "contentPath": "https://www.lepoint.fr/html/publicite/"
+          },
+          {
+            "title": "Nous contacter",
+            "contentPath": "https://www.lepoint.fr/html/contact/"
+          },
+          {
+            "title": "Plan du site",
+            "contentPath": "https://www.lepoint.fr/html/plan-du-site/"
+          },
+          {
+            "title": "Mentions légales",
+            "contentPath": "https://www.lepoint.fr/html/mentions_legales/"
+          },
+          {
+            "title": "CGU",
+            "contentPath": "https://www.lepoint.fr/html/cgu/"
+          },
+          {
+            "title": "Charte de modération",
+            "contentPath": "https://www.lepoint.fr/html/charte-de-moderation/"
+          },
+          {
+            "title": "Politique cookies",
+            "contentPath": "https://www.lepoint.fr/html/politique-cookies/"
+          },
+          {
+            "title": "Politique de protection des données à caractère personnel",
+            "contentPath": "https://www.lepoint.fr/html/politique-de-protection-donnees-personnelles/"
+          },
+          {
+            "title": "Archives",
+            "contentPath": "https://www.lepoint.fr/archives/"
+          },
+          {
+            "title": "Chaine television",
+            "contentPath": "https://www.lepoint.fr/themes/chaine-television"
+          },
+          {
+            "title": "Continent",
+            "contentPath": "https://www.lepoint.fr/themes/continent"
+          },
+          {
+            "title": "Entreprise",
+            "contentPath": "https://www.lepoint.fr/themes/entreprise"
+          },
+          {
+            "title": "Institution juridique",
+            "contentPath": "https://www.lepoint.fr/themes/institution-juridique"
+          },
+          {
+            "title": "Maison edition",
+            "contentPath": "https://www.lepoint.fr/themes/maison-edition"
+          },
+          {
+            "title": "Organisation gouvernementale",
+            "contentPath": "https://www.lepoint.fr/themes/organisation-gouvernementale"
+          },
+          {
+            "title": "Organisation internationale",
+            "contentPath": "https://www.lepoint.fr/themes/organisation-internationale"
+          },
+          {
+            "title": "Parti politique fr",
+            "contentPath": "https://www.lepoint.fr/themes/parti-politique-fr"
+          },
+          {
+            "title": "Pays",
+            "contentPath": "https://www.lepoint.fr/themes/pays"
+          },
+          {
+            "title": "Personne",
+            "contentPath": "https://www.lepoint.fr/themes/personne"
+          },
+          {
+            "title": "Presse ecrite",
+            "contentPath": "https://www.lepoint.fr/themes/presse-ecrite"
+          },
+          {
+            "title": "Station radio",
+            "contentPath": "https://www.lepoint.fr/themes/station-radio"
+          },
+          {
+            "title": "Ville",
+            "contentPath": "https://www.lepoint.fr/themes/ville"
+          }
+        ]
+      }
+    ]
+  }
+}
