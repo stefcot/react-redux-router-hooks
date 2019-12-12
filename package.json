@@ -135,7 +135,7 @@
     "test": "jest",
     "start": "npm-run-all --parallel dev server",
     "server": "json-server -p 9000 db.json",
-    "dev": "NODE_ENV=development webpack-dev-server --open --hot",
+    "dev": "NODE_ENV=development webpack-dev-server --open",
     "build": "NODE_ENV=production webpack",
     "format": "pretty-quick",
     "lint": "eslint ./",
