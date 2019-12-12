@@ -2,18 +2,18 @@
 const merge = require('webpack-merge');
 
 // Import default (base) config file
-const defaultConfig = require('./config/webpack.default');
+const defaultConfig = require('./webpack/base');
 
 // Our export should be a function rather than an object
 module.exports = env => {
-  // 4. If env param is not passed, check environment variable, otherwise fall back to "dev"
+  // 4. If env param is not passed, check environment variable, otherwise defaults to "development"
   if (!env) {
-    env = process.env.NODE_ENV || 'dev';
+    env = process.env.NODE_ENV || 'development';
   }
 
   try {
     // Try loading the environment config
-    const envConfig = require(`./config/environment.${env}`);
+    const envConfig = require(`./webpack/${env}`);
     // and then return
     return merge(defaultConfig(env), envConfig);
   } catch (err) {

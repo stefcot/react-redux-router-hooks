@@ -33,7 +33,7 @@ const Logo = () => (
       )}
       {((ie.version && ie.version > 8) || !ie.version) && (
         <span className={styles['category']} style={{ display: 'none' }}>
-          {'International'}
+          International
         </span>
       )}
     </a>

@@ -1,22 +1,9 @@
 const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const WebpackBundleAnalyzer = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin;
+const WebpackBundleAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  plugins: [
-    // Creates a CSS file from content processed by css-loader ( can be sass-loader + postcss-loader )
-    new MiniCssExtractPlugin({
-      chunkFilename: 'main.css'
-    }),
-    // Minifies CSS files
-    new OptimizeCssAssetsPlugin(),
-    // exports stats on a static HTML page
-    new WebpackBundleAnalyzer({
-      analyzerMode: 'static'
-    })
-  ],
   module: {
     rules: [
       {
@@ -71,5 +58,17 @@ module.exports = {
         sourceMap: true
       })
     ]
-  }
+  },
+  plugins: [
+    // Creates a CSS file from content processed by css-loader ( can be sass-loader + postcss-loader )
+    new MiniCssExtractPlugin({
+      chunkFilename: 'main.css'
+    }),
+    // Minifies CSS files
+    new OptimizeCssAssetsPlugin(),
+    // exports stats on a static HTML page
+    new WebpackBundleAnalyzer({
+      analyzerMode: 'static'
+    })
+  ]
 };

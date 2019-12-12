@@ -7,11 +7,12 @@
   },
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/all",
+    "plugin:react/recommended",
     "airbnb",
     "prettier",
     "prettier/react"
@@ -31,9 +32,9 @@
   ],
   "settings": {
     "react": {
-      "version": "16.6.3"
+      "version": "detect"
     },
-    "import/resolver": "webpack"
+    "import/resolver": ["webpack", "node"]
   },
   "rules": {
     "import/imports-first": ["error", "absolute-first"],

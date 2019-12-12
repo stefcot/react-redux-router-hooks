@@ -6,7 +6,9 @@
 # IDE files
 .idea
 .idea/*
+yarn.lock
 
 # Files and folders
 dist
+build
 node_modules

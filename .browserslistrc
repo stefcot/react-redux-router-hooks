@@ -1,0 +1,6 @@
+# Will read by babel env preset to pick ad hoc polyfills with @babel/polyfill
+
+last 2 chrome versions
+not dead
+not < 2%
+not ie 11

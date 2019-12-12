@@ -3,18 +3,13 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
-const StyleLintPlugin = require('stylelint-webpack-plugin');
+// const StyleLintPlugin = require('stylelint-webpack-plugin');
 
-module.exports = env => {
-  return {
-    entry: {
-      vendor: ['jquery'],
-      app: path.resolve(__dirname, '../src/js/index.js')
-    },
+module.exports = env => ({
     output: {
-      filename: '[name].js',
+      filename: '[name].[hash:8].js',
       path: path.resolve(__dirname, '../dist'),
-      publicPath: '/dist/'
+      publicPath: '/'
     },
     resolve: {
       extensions: ['*', '.js', '.jsx', '.json', '.scss'],
@@ -132,7 +127,7 @@ module.exports = env => {
       }),
       // Make some libraries and/or modules global
       new webpack.ProvidePlugin({
-        $: 'jquery'
+        _: 'lodash'
       }),
       // Copy static contents not processed in config
       new CopyWebpackPlugin([
@@ -157,32 +152,31 @@ module.exports = env => {
         filename: 'index.html',
         template: path.resolve(__dirname, '../src/templates/index.ejs'),
         headHtmlSnippet: `
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/images/icons/favicon.png" type="image/png">
-    <link rel="icon" sizes="32x32" href="assets/images/icons/favicon-32.png" type="image/png">
-    <link rel="icon" sizes="64x64" href="assets/images/icons/favicon-64.png" type="image/png">
-    <link rel="icon" sizes="96x96" href="assets/images/icons/favicon-96.png" type="image/png">
-    <link rel="icon" sizes="196x196" href="assets/images/icons/favicon-196.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-touch-icon-144x144.png">
-    <meta name="msapplication-TileImage" content="assets/images/icons/favicon-144.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">`
+          <!-- FAVICON -->
+          <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+          <link rel="icon" href="assets/images/icons/favicon.png" type="image/png">
+          <link rel="icon" sizes="32x32" href="assets/images/icons/favicon-32.png" type="image/png">
+          <link rel="icon" sizes="64x64" href="assets/images/icons/favicon-64.png" type="image/png">
+          <link rel="icon" sizes="96x96" href="assets/images/icons/favicon-96.png" type="image/png">
+          <link rel="icon" sizes="196x196" href="assets/images/icons/favicon-196.png" type="image/png">
+          <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-touch-icon-60x60.png">
+          <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/apple-touch-icon-76x76.png">
+          <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114.png">
+          <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/apple-touch-icon-120x120.png">
+          <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-touch-icon-144x144.png">
+          <meta name="msapplication-TileImage" content="assets/images/icons/favicon-144.png">
+          <meta name="msapplication-TileColor" content="#FFFFFF">`
       }),
-      new InlineManifestWebpackPlugin(),
+      new InlineManifestWebpackPlugin()
       // Lint scss files on save
-      new StyleLintPlugin()
+      // new StyleLintPlugin()
     ],
     optimization: {
       runtimeChunk: {
         name: 'manifest'
       }
     },
-    devtool: 'source-map',
+    devtool: env === 'production' ? 'source-map' : 'cheap-module-eval-source-map',
     mode: env === 'production' ? 'production' : 'development'
-  };
-};
+  });

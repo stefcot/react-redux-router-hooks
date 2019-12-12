@@ -1,3 +1,4 @@
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -6,7 +7,8 @@ module.exports = {
       // bundle the client for hot reloading
       'webpack/hot/only-dev-server',
       // bundle the client for config-dev-server
-      'webpack-dev-server/client?http://localhost:8080'
+      'webpack-dev-server/client?http://localhost:8080',
+      path.resolve(__dirname, '../src/js/index.js')
     ]
   },
   module: {
@@ -59,11 +61,12 @@ module.exports = {
     ]
   },
   devServer: {
-      hot: true
+    hot: true,
+    outputPath: path.resolve(__dirname, '../dist')
   },
   watch: true,
   watchOptions: {
-      ignored: ['config/**/*.js', 'node_modules'],
+      ignored: ['webpack/**/*.js', 'node_modules'],
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
