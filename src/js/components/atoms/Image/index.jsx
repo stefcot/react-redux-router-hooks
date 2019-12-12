@@ -14,7 +14,7 @@ class Image extends React.Component {
         alt={alt}
         height={height}
         onLoad={onImageload}
-        src={`/dist/assets/images/${imgPath}`}
+        src={`/assets/images/${imgPath}`}
         style={loaded ? {} : { display: 'none' }}
         width={width}
       />

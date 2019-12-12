@@ -2,15 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: {
-    app: [
-      // bundle the client for hot reloading
-      'webpack/hot/only-dev-server',
-      // bundle the client for config-dev-server
-      'webpack-dev-server/client?http://localhost:8080',
-      path.resolve(__dirname, '../src/js/index.js')
-    ]
-  },
   module: {
     rules: [
       {
@@ -61,16 +52,12 @@ module.exports = {
     ]
   },
   devServer: {
-    hot: true,
-    outputPath: path.resolve(__dirname, '../dist')
-  },
-  watch: true,
-  watchOptions: {
-      ignored: ['webpack/**/*.js', 'node_modules'],
+    contentBase: path.join(__dirname, '/'),
+    publicPath: '/',
+    hot: false,
+    liveReload: false
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    // allows Module naming in developpement mode
     new webpack.NamedModulesPlugin()
   ]
 };

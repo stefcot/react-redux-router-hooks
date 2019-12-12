@@ -1,9 +1,7 @@
 {
   "parser": "postcss",
   "plugins": {
-    "autoprefixer": {
-        "browsers": ['last 2 versions', 'ie >= 10']
-    },
+    "autoprefixer": {},
     "postcss-import": {},
     "postcss-preset-env": {},
     "postcss-prettify": {},

@@ -5,7 +5,7 @@ import Links from 'molecules/Links';
 
 const styles = require('./PreHeader.skin');
 
-console.log('PreHeader - scss: ', styles);
+// console.log('PreHeader - scss: ', styles);
 
 const PreHeader = ({ page, nav }) => (
   <nav

@@ -6,6 +6,11 @@ const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 // const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = env => ({
+  entry: {
+    app: [
+      path.resolve(__dirname, '../src/js/index.js')
+    ]
+  },
     output: {
       filename: '[name].[hash:8].js',
       path: path.resolve(__dirname, '../dist'),

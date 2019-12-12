@@ -4,7 +4,7 @@ import Link from 'atoms/Link';
 
 const styles = require('./Links.skin');
 
-console.log('Links - scss: ', styles);
+// console.log('Links - scss: ', styles);
 
 const Links = ({ name, nav }) => (
   <ul className={styles['root']} id={name}>

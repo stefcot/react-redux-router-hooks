@@ -6,7 +6,7 @@ import { IconFactory, IconList } from 'utils/IconFactory';
 
 const styles = require('./Figure.skin');
 
-console.log('Figure - scss: ', styles);
+// console.log('Figure - scss: ', styles);
 
 class Figure extends React.Component {
   constructor(props) {

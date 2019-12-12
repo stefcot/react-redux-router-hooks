@@ -4,7 +4,7 @@ import Article from 'organisms/Article';
 
 const styles = require('./ArticleGroup.skin');
 
-console.log('ArticleGroup - scss: ', styles);
+// console.log('ArticleGroup - scss: ', styles);
 
 class ArticleGroup extends React.Component {
   shouldComponentUpdate() {

@@ -7,7 +7,7 @@ import Categories from 'molecules/Categories';
 
 const styles = require('./Header.skin');
 
-console.log('Header - scss: ', styles);
+// console.log('Header - scss: ', styles);
 
 const Header = ({ page, preHeader, categories }) => (
   <header className={styles['root']} id={`hdr-cmp-${page}`}>

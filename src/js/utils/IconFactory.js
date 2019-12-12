@@ -12,7 +12,7 @@ import TwitterIcon from '../../assets/svg/twitter.svg';
 import UserIcon from '../../assets/svg/user.svg';
 
 export function IconFactory(SVGComponent) {
-  console.log('IconFactory - SVGComponent: ', SVGComponent);
+  // console.log('IconFactory - SVGComponent: ', SVGComponent);
   return ReactHtmlParser(SVGComponent);
 }
 

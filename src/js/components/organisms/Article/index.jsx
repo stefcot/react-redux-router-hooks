@@ -7,7 +7,7 @@ import Related from 'molecules/Related';
 const htmlToReactParser = new Parser();
 const styles = require('./Article.skin.scss');
 
-console.log('Article - scss: ', styles);
+// console.log('Article - scss: ', styles);
 
 class Article extends React.Component {
   shouldComponentUpdate() {
@@ -27,7 +27,7 @@ class Article extends React.Component {
       related
     } = this.props;
 
-    console.log('Article::render - related: ', related);
+    // console.log('Article::render - related: ', related);
 
     return (
       <article

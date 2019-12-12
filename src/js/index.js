@@ -4,16 +4,12 @@ import App from './components/App';
 
 const config = require('../assets/json/Page');
 
+// React aXe will check accessibility inconsistencies
+// and report them in the console, alsosuggests solutions to fix problems
+if (process.env.NODE_ENV === 'development') {
+  // eslint-disable-next-line global-require
+  const axe = require('react-axe');
+  axe(React, ReactDOM, 1000);
+}
+
 ReactDOM.render(<App {...config} />, document.getElementById('root'));
-
-if (process.env.isProduction) {
-  console.log('production');
-}
-
-if (!process.env.isProduction) {
-  console.log('development');
-}
-
-if (!process.env.isProduction && module.hot) {
-  module.hot.accept();
-}

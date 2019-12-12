@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const styles = require('./Loader.skin');
 
-console.log('Loader - scss: ', styles);
+// console.log('Loader - scss: ', styles);
 
 const Loader = ({ type, index }) => (
   <div

@@ -7,7 +7,7 @@ import { IconFactory, IconList } from '../../../utils/IconFactory';
 const htmlToReactParser = new Parser();
 const styles = require('./Related.skin');
 
-console.log('Related - scss: ', styles);
+// console.log('Related - scss: ', styles);
 
 const Related = ({ list }) => (
   <ul className={styles['root']}>

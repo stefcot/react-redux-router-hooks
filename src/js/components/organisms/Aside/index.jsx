@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const styles = require('./Aside.skin');
 
-console.log('Aside - scss: ', styles);
+// console.log('Aside - scss: ', styles);
 
 const Aside = ({ name, children }) => (
   <aside className={styles['root']} id={name}>

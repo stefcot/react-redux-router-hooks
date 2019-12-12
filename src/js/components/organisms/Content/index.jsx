@@ -4,7 +4,7 @@ import Loader from 'atoms/Loader';
 
 const styles = require('./Content.skin');
 
-console.log('Content - styles: ', styles);
+// console.log('Content - styles: ', styles);
 
 class Content extends React.Component {
   static getComponentByName(blockProperties, idx) {

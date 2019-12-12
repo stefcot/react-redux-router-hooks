@@ -4,7 +4,7 @@ import Links from 'molecules/Links';
 
 const styles = require('./Footer.skin');
 
-console.log('Footer - scss: ', styles);
+// console.log('Footer - scss: ', styles);
 
 const Footer = ({ name }) => (
   <footer className={styles['root']} id={name}>
