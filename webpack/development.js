@@ -2,6 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
+  resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom'
+    },
+  },
   module: {
     rules: [
       {
@@ -53,9 +58,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, '/'),
-    publicPath: '/',
-    hot: false,
-    liveReload: false
+    publicPath: '/'
   },
   plugins: [
     new webpack.NamedModulesPlugin()

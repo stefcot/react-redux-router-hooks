@@ -151,7 +151,7 @@ module.exports = env => ({
       ]),
       // Loads a EJS template
       new HtmlWebpackPlugin({
-        title: 'Webpack Demo Dev Version',
+        title: 'Project Sandbox: React, Redux, React-router, Jest',
         inject: false,
         appMountId: 'root',
         filename: 'index.html',

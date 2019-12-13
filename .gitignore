@@ -1,12 +1,14 @@
 # System files
-
 *.DS_tore
 .DS_Store
 
 # IDE files
 .idea
 .idea/*
+
+# package manager
 yarn.lock
+package-lock.json
 
 # Files and folders
 dist
