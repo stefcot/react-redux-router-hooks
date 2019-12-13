@@ -25,7 +25,36 @@ module.exports = {
         ]
       },
       {
-        test: /\.scss$/,
+        test: /main\.scss$/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              sourceMap: true,
+              importLoaders: true,
+            }
+          },
+          {
+            loader: 'postcss-loader'
+          },
+          {
+            loader: 'resolve-url-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
+        ],
+        exclude: '/node_modules/'
+      },
+      {
+        test: /\.skin\.scss$/,
         use: [
           {
             loader: 'style-loader'

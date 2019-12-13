@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 
+import '../scss/main';
+
 const config = require('../assets/json/Page');
 
 // React aXe will check accessibility inconsistencies
