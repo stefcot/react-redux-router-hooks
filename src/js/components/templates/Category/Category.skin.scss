@@ -13,7 +13,13 @@
 
   @media screen and (prefers-color-scheme: dark) {
     .root {
-      background-color: gray;
+      background-color: $black;
+    }
+  }
+
+  @media screen and (prefers-color-scheme: light) {
+    .root {
+      background-color: $white;
     }
   }
 }

@@ -2,8 +2,11 @@
 
 :local {
   .root {
+    height: min-content;
     margin: 0;
     padding: 0 $base-spacing;
+    position: sticky;
+    top: 150px;
     width: 33.3333333%;
   }
 }

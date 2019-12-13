@@ -1,6 +1,6 @@
-# Will read by babel env preset to pick ad hoc polyfills with @babel/polyfill
+# Will read by babel env preset to pick ad hoc polyfills with @babel/polyfill, babel and scss/sass
 
-last 2 chrome versions
+last 2 versions
 not dead
 not < 2%
-not ie 11
+ie 11
