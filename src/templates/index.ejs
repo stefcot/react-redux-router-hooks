@@ -30,16 +30,17 @@
     } %><%
     for (key in htmlWebpackPlugin.files.css) { %><%
       if (htmlWebpackPlugin.files.cssIntegrity) { %>
-    <link
-      href="<%= htmlWebpackPlugin.files.css[key] %>"
-      rel="stylesheet"
-      integrity="<%= htmlWebpackPlugin.files.cssIntegrity[key] %>"
-      crossorigin="<%= webpackConfig.output.crossOriginLoading %>" /><%
-      } else { %>
-    <link href="<%= htmlWebpackPlugin.files.css[key] %>" rel="stylesheet" /><%
-      } %><%
-    } %><%
-    if (htmlWebpackPlugin.options.headHtmlSnippet) { %>
+        <link
+          href="<%= htmlWebpackPlugin.files.css[key] %>"
+          rel="stylesheet"
+          integrity="<%= htmlWebpackPlugin.files.cssIntegrity[key] %>"
+          crossorigin="<%= webpackConfig.output.crossOriginLoading %>" /><%
+          } else { %>
+        <link href="<%= htmlWebpackPlugin.files.css[key] %>" rel="stylesheet" /><%
+          } %>
+        <%
+    } %>
+    <% if (htmlWebpackPlugin.options.headHtmlSnippet) { %>
     <%= htmlWebpackPlugin.options.headHtmlSnippet %><%
     } %>
   </head>

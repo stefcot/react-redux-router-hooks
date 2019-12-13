@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
-// const StyleLintPlugin = require('stylelint-webpack-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = env => ({
   entry: {
@@ -173,9 +173,14 @@ module.exports = env => ({
         <meta name="msapplication-TileImage" content="assets/images/icons/favicon-144.png">
         <meta name="msapplication-TileColor" content="#FFFFFF">`
     }),
-    new InlineManifestWebpackPlugin()
+    new InlineManifestWebpackPlugin(),
     // Lint scss files on save
-    // new StyleLintPlugin()
+    new StyleLintPlugin({
+      configFile: path.resolve(__dirname, '../.stylelintrc'),
+      fix: true,
+      context: path.resolve(__dirname, '../src'),
+      failOnError: false
+    })
   ],
   optimization: {
     runtimeChunk: {
