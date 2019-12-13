@@ -87,7 +87,6 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-prettier": "^1.0.5",
     "stylelint-scss": "^3.4.1",
-    "stylelint-webpack-plugin": "^0.10.5",
     "sugarss": "^2.0.0",
     "svg-loader": "0.0.2",
     "svgo": "^1.1.1",
