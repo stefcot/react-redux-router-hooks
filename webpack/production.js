@@ -7,7 +7,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(scss|css)$/,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader
@@ -16,16 +16,28 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-              sourceMap: true,
               importLoaders: true,
-              localIdentName: '[name]__[local]___[hash:base64:5]'
+              includePaths: ['./src']
+            }
+          },
+        ],
+        exclude: '/node_modules/'
+      },
+      {
+        test: /main\.scss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: true,
             }
           },
           {
             loader: 'postcss-loader',
-            options: {
-              sourceMap: true
-            }
           },
           {
             loader: 'resolve-url-loader'
@@ -33,8 +45,36 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true,
               includePaths: ['./src/scss']
+            }
+          }
+        ],
+        exclude: '/node_modules/'
+      },
+      {
+        test: /\.skin\.scss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]'
+            }
+          },
+          {
+            loader: 'postcss-loader',
+          },
+          {
+            loader: 'resolve-url-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: ['./src/js']
             }
           }
         ],
@@ -62,7 +102,7 @@ module.exports = {
   plugins: [
     // Creates a CSS file from content processed by css-loader ( can be sass-loader + postcss-loader )
     new MiniCssExtractPlugin({
-      chunkFilename: 'main.css'
+      chunkFilename: '[name].[hash:8].css'
     }),
     // Minifies CSS files
     new OptimizeCssAssetsPlugin(),

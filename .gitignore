@@ -9,6 +9,7 @@
 # package manager
 yarn.lock
 package-lock.json
+npm-debug.log
 
 # Files and folders
 dist

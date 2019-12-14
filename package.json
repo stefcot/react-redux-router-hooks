@@ -76,7 +76,7 @@
     "raw-loader": "^0.5.1",
     "react-test-renderer": "^16.6.3",
     "resolve-url-loader": "^3.0.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.7.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylelint": "^9.9.0",
@@ -133,6 +133,7 @@
     ]
   },
   "scripts": {
+    "production": "rimraf dist && npm run build && json-server -p 5000 --static ./dist db.json",
     "test": "jest",
     "start": "npm-run-all --parallel dev server",
     "server": "json-server -p 9000 db.json",

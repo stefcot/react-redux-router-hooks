@@ -27,6 +27,7 @@ module.exports = env => ({
       organisms: path.resolve(__dirname, '../src/js/components/organisms'),
       templates: path.resolve(__dirname, '../src/js/components/templates'),
       utils: path.resolve(__dirname, '../src/js/utils'),
+      assets: path.resolve(__dirname, '../src/assets'),
       images: path.resolve(__dirname, '../src/assets/images'),
       svg: path.resolve(__dirname, '../src/assets/svg'),
       fonts: path.resolve(__dirname, '../src/assets/fonts')
@@ -187,6 +188,6 @@ module.exports = env => ({
       name: 'manifest'
     }
   },
-  devtool: env === 'production' ? 'source-map' : 'cheap-module-eval-source-map',
+  devtool: env === 'production' ? false : 'cheap-module-eval-source-map',
   mode: env === 'production' ? 'production' : 'development'
 });
